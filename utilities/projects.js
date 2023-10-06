@@ -1,6 +1,6 @@
 export const projects = [
   {
-    name: 'World Pride 🏳️‍🌈',
+    name: 'World Pride',
     category: 'VIACOM',
     description:
       'The 2019 World Pride Parade was the largest event in NYC history and the longest Pride March in the world at 12 hours and 30 minutes. I was responsible for 500+ walkers for our Comedy Central and TVland floats, handing out swag, and keeping our volunteers organized, happy, and excited!',
@@ -13,11 +13,11 @@ export const projects = [
     ]
   },
   {
-    name: 'https://www.clipartmax.com/middle/m2i8N4H7A0b1H7K9_new-york-comic-con-new-york-comic-con-logo/',
+    name: 'Comic-Con',
     category: 'VIACOM',
     color: '#5F1DA9',
     description:
-      'South Park and 23andMe partnered up for their 23rd season, where I came up with the activation idea for a lab setting with a photo stasis chamber. The activation was a hit for both NYC and San Diego Comic-Con, with 224% increase of social media mentions from the previous activation idea!',
+      'South Park and 23andMe partnered up for their 23rd season, where I came up with the activation idea for a lab setting with a photo stasis chamber. The activation was a hit for both NYC and San Diego Comic-Con, with 224% increase of social media mentions from the previous activation!',
     projectBg:
       'https://raw.githubusercontent.com/sydney-rd/next_three_portfolio/main/public/assets/UIPattern.gif'
   },
