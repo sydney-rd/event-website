@@ -5,7 +5,7 @@ export const projects = [
     description: '',
     color: '#5F1DA9',
     projectBg:
-      'https://raw.githubusercontent.com/sydney-rd/next_three_portfolio/main/public/assets/Pawmeets.gif'
+      'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/photos/WPP.jpeg'
   },
   {
     name: 'Comic-Con',

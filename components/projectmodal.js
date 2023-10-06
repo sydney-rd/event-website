@@ -14,7 +14,7 @@ const MotionModal = motion(Modal)
 const MotionModalContent = motion(ModalContent)
 
 const ProjectModal = ({ isOpen, onClose, project }) => {
-  const { name, description, projectBg, color, github, link } = project
+  const { name, description, projectBg, color } = project
 
   const responsiveStyles = useBreakpointValue({
     base: {
@@ -25,7 +25,6 @@ const ProjectModal = ({ isOpen, onClose, project }) => {
       contentFontSize: '.9rem',
       showBorder: true,
       descriptionWidth: '12rem',
-      linkMarginTop: '.5rem',
       gifMarginTop: '0rem',
       titlePaddingTop: '1.3rem'
     },
@@ -42,7 +41,6 @@ const ProjectModal = ({ isOpen, onClose, project }) => {
       gifWidth: '48vw',
       contentFontSize: '1rem',
       descriptionWidth: '43rem',
-      linkMarginTop: '-2.5rem',
       gifMarginTop: '-.6rem',
       titlePaddingTop: '-.5rem'
     }
@@ -99,7 +97,7 @@ const ProjectModal = ({ isOpen, onClose, project }) => {
             }
           }}
         />
-        {/* gif */}
+        {/* picture */}
         <Box display="flex" justifyContent="center">
           <Box
             sx={{
@@ -137,66 +135,6 @@ const ProjectModal = ({ isOpen, onClose, project }) => {
             padding: responsiveStyles?.showBorder ? '.5rem' : 0
           }}
         >
-          <Flex flexDirection="row">
-            <motion.div
-              whileHover={{ scale: 1.1 }}
-              style={{
-                display: 'inline-block',
-                marginRight: '.8rem',
-                paddingBottom: '.5rem',
-                marginTop: responsiveStyles?.linkMarginTop
-              }}
-            >
-              <a
-                href={github}
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{
-                  fontWeight: 'bold',
-                  textDecoration: 'none',
-                  color: 'white',
-                  cursor: 'crosshair',
-                  textShadow: `0px 0px 5px ${color}`
-                }}
-              >
-                CODE
-              </a>
-            </motion.div>
-            <span
-              style={{
-                color: 'white',
-                fontWeight: 'bold',
-                marginRight: '.8rem',
-                marginTop: responsiveStyles?.linkMarginTop
-              }}
-            >
-              |
-            </span>
-            <motion.div
-              whileHover={{ scale: 1.1 }}
-              style={{
-                cursor: 'crosshair',
-                display: 'inline-block',
-                marginRight: '.8rem',
-                marginTop: responsiveStyles?.linkMarginTop
-              }}
-            >
-              <a
-                href={link}
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{
-                  fontWeight: 'bold',
-                  textDecoration: 'none',
-                  cursor: 'crosshair',
-                  color: 'white',
-                  textShadow: `0px 0px 5px ${color}`
-                }}
-              >
-                PROJ
-              </a>
-            </motion.div>
-          </Flex>
           <p
             style={{
               width: responsiveStyles?.descriptionWidth,
