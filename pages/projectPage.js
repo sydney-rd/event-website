@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Canvas } from '@react-three/fiber'
-import { OrbitControls, Sky, Stars, Html } from '@react-three/drei'
+import { OrbitControls, Sky, Stars, Html, Cloud } from '@react-three/drei'
 import { projects } from '../utilities/projects'
 import { motion } from 'framer-motion'
 import ProjectCategories from '../components/projectCategories'
@@ -62,7 +62,14 @@ export default function ProjectPage() {
           style={{ width: '100vw', height: '100vh' }}
         >
           <OrbitControls autoRotate autoRotateSpeed={0.3} maxDistance={60} />
-          <Sky sunPosition={[0, 0, 0]} />
+          <Sky sunPosition={[0, 1, 0]} />
+          <ambientLight intensity={0.5} />
+          <directionalLight
+            position={[50, 50, 5]}
+            intensity={0.6}
+            color="#ffccaa"
+          />
+          <Cloud position={[0, 10, 0]} scale={[2, 1, 1]} />
           <Stars fade />
           <Html fullscreen transform>
             <VStack
