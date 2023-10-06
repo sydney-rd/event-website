@@ -60,12 +60,12 @@ const Title = () => {
         </Box>
         <Box display="flex" justifyContent="center">
           <AnimatedText
-            text="SOFTWARE"
+            text="HOSPITALITY  &"
             colors={['#4B0090', '#DE91BE', '#4B0090']}
           />
           <Box marginX=".7rem">
             <AnimatedText
-              text="DEVELOPER"
+              text="EVENTS"
               colors={['#4B0090', '#DE91BE', '#4B0090']}
             />
           </Box>
