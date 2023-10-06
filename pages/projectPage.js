@@ -99,7 +99,7 @@ export default function ProjectPage() {
                     }}
                     onClick={() => handleClick(project)}
                   >
-                    {project.name}
+                    <img src={project.name} alt={project.name} />
                   </MotionChakraLink>
                 ))}
             </VStack>

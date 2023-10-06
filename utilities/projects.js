@@ -13,11 +13,11 @@ export const projects = [
     ]
   },
   {
-    name: 'Comic-Con',
+    name: 'https://www.clipartmax.com/middle/m2i8N4H7A0b1H7K9_new-york-comic-con-new-york-comic-con-logo/',
     category: 'VIACOM',
     color: '#5F1DA9',
     description:
-      'Built with JavaScript, HTML, and CSS. As a passionate traveler and map enthusiast, I drew inspiration from an old postcard sent by a friend. With data sourced from an API, every stamp adorning the envelope represents a different country. Clicking on a stamp unveils a handwritten note with facts about that country.',
+      'South Park and 23andMe partnered up for their 23rd season, where I came up with the activation idea for a lab setting with a photo stasis chamber. The activation was a hit for both NYC and San Diego Comic-Con, with 224% increase of social media mentions from the previous activation idea!',
     projectBg:
       'https://raw.githubusercontent.com/sydney-rd/next_three_portfolio/main/public/assets/UIPattern.gif'
   },
