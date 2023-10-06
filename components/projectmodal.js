@@ -9,7 +9,8 @@ import {
   useBreakpointValue
 } from '@chakra-ui/react'
 import { motion } from 'framer-motion'
-
+import { Carousel } from 'react-responsive-carousel'
+import 'react-responsive-carousel/lib/styles/carousel.min.css'
 const MotionModal = motion(Modal)
 const MotionModalContent = motion(ModalContent)
 
@@ -19,32 +20,33 @@ const ProjectModal = ({ isOpen, onClose, project }) => {
   const responsiveStyles = useBreakpointValue({
     base: {
       titleFontSize: '3.5rem',
-      gifHeight: '24vh',
-      gifWidth: '72vw',
+      picHeight: '40vh',
+      picWidth: '40vw',
       top: '19.5rem',
       contentFontSize: '.9rem',
       showBorder: true,
       descriptionWidth: '12rem',
-      gifMarginTop: '0rem',
+      picMarginTop: '0rem',
       titlePaddingTop: '1.3rem'
     },
     sm: {
       titleFontSize: '6rem',
-      gifHeight: '45vh',
-      gifWidth: '70vw',
+      picHeight: '45vh',
+      picWidth: '70vw',
       contentFontSize: '1rem',
       descriptionWidth: '29rem'
     },
     md: {
       titleFontSize: '7rem',
-      gifHeight: '53vh',
-      gifWidth: '48vw',
+      picHeight: '62vh',
+      picWidth: '55vw',
       contentFontSize: '1rem',
       descriptionWidth: '43rem',
-      gifMarginTop: '-.6rem',
+      picMarginTop: '-2rem',
       titlePaddingTop: '-.5rem'
     }
   })
+
   return (
     <MotionModal
       isOpen={isOpen}
@@ -99,18 +101,30 @@ const ProjectModal = ({ isOpen, onClose, project }) => {
         />
         {/* picture */}
         <Box display="flex" justifyContent="center">
-          <Box
-            sx={{
-              backgroundImage: `url(${projectBg})`,
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
-              height: responsiveStyles?.gifHeight,
-              width: responsiveStyles?.gifWidth,
-              borderRadius: '2rem',
-              zIndex: 2,
-              marginTop: responsiveStyles?.gifMarginTop
-            }}
-          />
+          <Carousel
+            showStatus={false}
+            showThumbs={false}
+            transitionTime={2000}
+            autoPlay
+            interval={4500}
+            emulateTouch
+            stopOnHover={false}
+          >
+            {projectBg.map((imageUrl, index) => (
+              <div key={index}>
+                <img
+                  src={imageUrl}
+                  alt={`Slide ${index}`}
+                  style={{
+                    height: responsiveStyles?.picHeight,
+                    width: responsiveStyles?.picWidth,
+                    borderRadius: '2rem',
+                    marginTop: responsiveStyles?.picMarginTop
+                  }}
+                />
+              </div>
+            ))}
+          </Carousel>
         </Box>
         <Box
           sx={{
