@@ -69,8 +69,16 @@ export default function ProjectPage() {
             intensity={0.6}
             color="#ffccaa"
           />
-          <Cloud position={[0, 10, 0]} scale={[2, 1, 1]} />
-          <Stars fade />
+          <Cloud
+            position={[0, 10, 0]}
+            scale={[1, 1, 1]}
+            texture="assets/cloud.png"
+          />
+          <Cloud
+            position={[20, 10, 0]}
+            scale={[1, 1, 3]}
+            texture="assets/cloud.png"
+          />
           <Html fullscreen transform>
             <VStack
               align="flex-end"
