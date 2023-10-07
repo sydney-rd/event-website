@@ -1,6 +1,12 @@
-import React, { useState } from 'react'
+import React, { useState, Suspense } from 'react'
 import { Canvas } from '@react-three/fiber'
-import { OrbitControls, Sky, Stars, Html, Cloud } from '@react-three/drei'
+import { Environment, OrbitControls, Sky, Html, Cloud } from '@react-three/drei'
+import {
+  EffectComposer,
+  Vignette,
+  HueSaturation
+} from '@react-three/postprocessing'
+
 import { projects } from '../utilities/projects'
 import { motion } from 'framer-motion'
 import ProjectCategories from '../components/projectCategories'
@@ -58,17 +64,23 @@ export default function ProjectPage() {
           />
         )}
         <Canvas
-          camera={{ position: [0, 5, 30] }}
+          // shadows
+          // gl={{ toneMappingExposure: 0.7 }}
+          dpr={1}
+          camera={{ position: [0, 30, 70], fov: 35 }}
           style={{ width: '100vw', height: '100vh' }}
         >
           <OrbitControls autoRotate autoRotateSpeed={0.3} maxDistance={60} />
-          <Sky sunPosition={[0, 1, 0]} />
-          <ambientLight intensity={0.5} />
-          <directionalLight
-            position={[50, 50, 5]}
-            intensity={0.6}
-            color="#ffccaa"
+
+          <EffectComposer disableNormalPass multisampling={0}>
+            <Vignette offset={0.8} darkness={0.25} />
+            <HueSaturation hue={0.1} saturation={0.4} />
+          </EffectComposer>
+          <Environment
+            ground={{ height: 20, scale: 100 }}
+            files="https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/kloppenheim_06_puresky_1k.hdr"
           />
+
           <Cloud
             position={[0, 10, 0]}
             scale={[1, 1, 1]}
@@ -77,6 +89,11 @@ export default function ProjectPage() {
           <Cloud
             position={[20, 10, 0]}
             scale={[1, 1, 3]}
+            texture="assets/cloud.png"
+          />
+          <Cloud
+            position={[50, 30, 0]}
+            scale={[1, 10, 3]}
             texture="assets/cloud.png"
           />
           <Html fullscreen transform>
@@ -100,11 +117,9 @@ export default function ProjectPage() {
                       whiteSpace: 'nowrap',
                       cursor: 'crosshair',
                       filter: 'brightness(150%)',
-                      color:
-                        hoveredItem === project.name
-                          ? project.color
-                          : 'transparent',
+                      color: project.color,
                       WebkitTextStroke: '2px',
+                      textShadow: `2px 2px 8px ${project.color}`,
                       WebkitTextStrokeColor: project.color,
                       _hover: {
                         color: project.color,

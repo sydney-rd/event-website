@@ -4,7 +4,7 @@ export const projects = [
     category: 'VIACOM',
     description:
       'The 2019 World Pride Parade was the largest event in NYC history and the longest Pride March in the world at 12 hours and 30 minutes. I was responsible for 500+ walkers for our Comedy Central and TVland floats, handing out swag, and keeping our volunteers organized, happy, and excited!',
-    color: '#5F1DA9',
+    color: 'blue',
     projectBg: [
       'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/WPP/WPP.jpeg',
       'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/WPP/WPP1.jpeg',
