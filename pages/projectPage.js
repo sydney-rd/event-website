@@ -1,17 +1,18 @@
-import React, { useState, Suspense } from 'react'
+import React, { useState } from 'react'
 import { Canvas } from '@react-three/fiber'
-import { Environment, OrbitControls, Sky, Html, Cloud } from '@react-three/drei'
+import { Environment, OrbitControls, Html, Cloud } from '@react-three/drei'
 import {
   EffectComposer,
   Vignette,
   HueSaturation
 } from '@react-three/postprocessing'
-
 import { projects } from '../utilities/projects'
 import { motion } from 'framer-motion'
 import ProjectCategories from '../components/projectCategories'
 import ProjectModal from '../components/projectmodal'
 import NavBar from '../components/navBar'
+import CloudScene from '../components/scenes/cloudScene.js'
+
 import {
   Flex,
   useDisclosure,
@@ -76,26 +77,7 @@ export default function ProjectPage() {
             ground={{ height: 20, scale: 100 }}
             files="https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/kloppenheim_06_puresky_1k.hdr"
           />
-          <Cloud
-            position={[0, 10, 0]}
-            scale={[1, 1, 1]}
-            texture="assets/cloud.png"
-          />
-          <Cloud
-            position={[0, 10, 0]}
-            scale={[1, 1, 1]}
-            texture="assets/cloud.png"
-          />
-          <Cloud
-            position={[20, 0, 0]}
-            scale={[1, 1, 1]}
-            texture="assets/cloud.png"
-          />
-          <Cloud
-            position={[10, 10, 10]}
-            scale={[10, 10, 10]}
-            texture="assets/cloud.png"
-          />
+          {CloudScene()}
           <Html fullscreen transform>
             <VStack
               align="flex-end"

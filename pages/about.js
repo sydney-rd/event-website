@@ -1,9 +1,15 @@
 import React from 'react'
 import { Box, Text, useBreakpointValue, useMediaQuery } from '@chakra-ui/react'
 import MobileAboutNavBar from '../components/mobileAboutNavBar.js'
-import { OrbitControls, Sky, Stars } from '@react-three/drei'
-import { Canvas } from '@react-three/fiber'
 import AboutNavbar from '../components/aboutNavbar'
+import { Canvas } from '@react-three/fiber'
+import { Environment, OrbitControls } from '@react-three/drei'
+import {
+  EffectComposer,
+  Vignette,
+  HueSaturation
+} from '@react-three/postprocessing'
+import CloudScene from '../components/scenes/cloudScene.js'
 
 export default function About() {
   const [isMobile] = useMediaQuery('(max-width: 768px)')
@@ -53,10 +59,20 @@ export default function About() {
     <Box position="relative" height="100vh">
       {!isMobile && <AboutNavbar />}
       {isMobile && <MobileAboutNavBar />}
-      <Canvas style={{ width: '100vw', height: '100vh' }}>
+      <Canvas
+        camera={{ position: [0, 5, 30] }}
+        style={{ width: '100vw', height: '100vh' }}
+      >
         <OrbitControls autoRotate autoRotateSpeed={0.3} maxDistance={60} />
-        <Sky sunPosition={[0, 0, 0]} />
-        <Stars fade />
+        <EffectComposer disableNormalPass multisampling={0}>
+          <Vignette offset={0.8} darkness={0.25} />
+          <HueSaturation hue={0.1} saturation={0.4} />
+        </EffectComposer>
+        <Environment
+          ground={{ height: 20, scale: 100 }}
+          files="https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/kloppenheim_06_puresky_1k.hdr"
+        />
+        {CloudScene()}
       </Canvas>
       <Box
         sx={{
