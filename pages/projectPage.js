@@ -64,14 +64,10 @@ export default function ProjectPage() {
           />
         )}
         <Canvas
-          // shadows
-          // gl={{ toneMappingExposure: 0.7 }}
-          dpr={1}
-          camera={{ position: [0, 30, 70], fov: 35 }}
+          camera={{ position: [0, 5, 30] }}
           style={{ width: '100vw', height: '100vh' }}
         >
           <OrbitControls autoRotate autoRotateSpeed={0.3} maxDistance={60} />
-
           <EffectComposer disableNormalPass multisampling={0}>
             <Vignette offset={0.8} darkness={0.25} />
             <HueSaturation hue={0.1} saturation={0.4} />
@@ -80,20 +76,24 @@ export default function ProjectPage() {
             ground={{ height: 20, scale: 100 }}
             files="https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/kloppenheim_06_puresky_1k.hdr"
           />
-
           <Cloud
             position={[0, 10, 0]}
             scale={[1, 1, 1]}
             texture="assets/cloud.png"
           />
           <Cloud
-            position={[20, 10, 0]}
-            scale={[1, 1, 3]}
+            position={[0, 10, 0]}
+            scale={[1, 1, 1]}
             texture="assets/cloud.png"
           />
           <Cloud
-            position={[50, 30, 0]}
-            scale={[1, 10, 3]}
+            position={[20, 0, 0]}
+            scale={[1, 1, 1]}
+            texture="assets/cloud.png"
+          />
+          <Cloud
+            position={[10, 10, 10]}
+            scale={[10, 10, 10]}
             texture="assets/cloud.png"
           />
           <Html fullscreen transform>
@@ -101,7 +101,7 @@ export default function ProjectPage() {
               align="flex-end"
               pr={responsiveStyles?.projectPaddingRight}
               zIndex={0}
-              maxH="130vh"
+              maxH="-5vh"
               position="relative"
               visibility={isOpen ? 'hidden' : 'visible'}
               userSelect="none"
@@ -118,12 +118,12 @@ export default function ProjectPage() {
                       cursor: 'crosshair',
                       filter: 'brightness(150%)',
                       color: project.color,
-                      WebkitTextStroke: '2px',
-                      textShadow: `2px 2px 8px ${project.color}`,
+                      WebkitTextStroke: '4px',
+                      textShadow: `2px 3px 8px ${project.color}`,
                       WebkitTextStrokeColor: project.color,
                       _hover: {
-                        color: project.color,
-                        textShadow: `2px 2px 8px ${project.color}`,
+                        color: 'transparent',
+                        textShadow: `2px 2px 8px transparent`,
                         transition: '1s'
                       }
                     }}

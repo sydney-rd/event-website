@@ -10,7 +10,7 @@ export default function Index() {
       backgroundSize="cover"
       width="100vw"
       height="100vh"
-      bg="black"
+      bg="#8cacc4"
       overflow="hidden"
     >
       <Title />

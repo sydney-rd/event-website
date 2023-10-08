@@ -50,30 +50,30 @@ const Title = () => {
         <Box display="flex" justifyContent="center" paddingRight="1rem">
           <AnimatedText
             text="SYDNEY"
-            colors={['#4B0090', '#DE91BE', '#4B0090']}
+            colors={['#7393B3', '#0000FF', '#c0c0c0']}
           />
           <Box marginX=".3rem"></Box>
           <AnimatedText
             text="DAVID"
-            colors={['#4B0090', '#DE91BE', '#4B0090']}
+            colors={['#7393B3', '#0000FF', '#c0c0c0']}
           />
         </Box>
         <Box display="flex" justifyContent="center">
           <AnimatedText
             text="HOSPITALITY  &"
-            colors={['#4B0090', '#DE91BE', '#4B0090']}
+            colors={['#c0c0c0', '#7393B3', '#0000FF']}
           />
           <Box marginX=".7rem">
             <AnimatedText
               text="EVENTS"
-              colors={['#4B0090', '#DE91BE', '#4B0090']}
+              colors={['#c0c0c0', '#7393B3', '#0000FF']}
             />
           </Box>
         </Box>
         <Text
           fontFamily="Ailerons"
           userSelect="none"
-          color="white"
+          color="blue"
           fontSize={responsiveStyles?.enterFontSize}
           cursor="crosshair"
           paddingRight="1rem"
