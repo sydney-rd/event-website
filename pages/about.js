@@ -114,19 +114,19 @@ export default function About() {
           <Box>
             <Text>
               <br />
-              Hi - I'm Sydney. I am passionate about the creative side of Events
-              and the continous learning that Tech provides. I decided to blend
-              my two passions, honing transferable skills into both events and
-              software development. My background is in Events and Hospitality.
-              I&apos;ve worked with companies such as WeWork and ViacomCBS, for
-              Comedy Central, Paramount Network, and TVLand. I have worked hands
-              on at activations such as the World Pride Parade, Comic-Con,
-              festivals, conventions, and more. While you will find me coding
-              day to day, I also have a passion for cars, travel, and studying
-              maps and geography. I am also an animal lover - cats and my
-              Pitbull mix have my heart! where I am self-taught and have
-              recently graduated General Assembly&apos;s Software Engineering
-              Bootcamp as of May 2023!
+              Hi - I&apos;m Sydney. I am passionate about the creative side of
+              Events and the continous learning that Tech provides. I decided to
+              blend my two passions, honing transferable skills into both events
+              and software development. My background is in Events and
+              Hospitality. I&apos;ve worked with companies such as WeWork and
+              ViacomCBS, for Comedy Central, Paramount Network, and TVLand. I
+              have worked hands on at activations such as the World Pride
+              Parade, Comic-Con, festivals, conventions, and more. While you
+              will find me coding day to day, I also have a passion for cars,
+              travel, and studying maps and geography. I am also an animal lover
+              - cats and my Pitbull mix have my heart! where I am self-taught
+              and have recently graduated General Assembly&apos;s Software
+              Engineering Bootcamp as of May 2023!
             </Text>
           </Box>
         </Box>
