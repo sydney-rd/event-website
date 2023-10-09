@@ -42,7 +42,7 @@ export const projects = [
       'https://raw.githubusercontent.com/sydney-rd/next_three_portfolio/main/public/assets/NASAPI.gif'
   },
   {
-    name: 'PREMIERE',
+    name: 'PARTIES',
     category: 'VIACOM',
     color: 'blue',
     description:
@@ -51,7 +51,7 @@ export const projects = [
       'https://raw.githubusercontent.com/sydney-rd/next-three-portfolio/main/public/assets/SpaceTrivia.gif'
   },
   {
-    name: 'TEXTVENTURE',
+    name: 'EMMY',
     category: 'VIACOM',
     color: 'blue',
     description:
@@ -60,7 +60,7 @@ export const projects = [
       'https://raw.githubusercontent.com/sydney-rd/next_three_portfolio/main/public/assets/AdventureGame.gif'
   },
   {
-    name: 'TO-DO MGR',
+    name: 'CONCERT',
     category: 'WEWORK',
     description:
       'Built with C++. Put away the traditional pen and paper 📝 for your to-do list—try this simple to-do manager instead! This program allows you to create tasks and save them onto your local database. With specific keywords, you can add new tasks, view all tasks, and delete tasks by number.',
@@ -69,7 +69,7 @@ export const projects = [
       'https://raw.githubusercontent.com/sydney-rd/next-three-portfolio/main/public/assets/TodoManager.gif'
   },
   {
-    name: 'UGLY SOUP',
+    name: 'COMEDY SHOW',
     category: 'WEWORK',
     description:
       'Built with Python. Want to parse through a website and download files to your computer? Try Ugly Soup! This tool enables users to input a URL, select a file type (PDF, JPEG, etc.), specify file names, and choose a preferred location. Use it to download PDF scripts of your favorite shows to perform to your friends and family!',
@@ -78,7 +78,7 @@ export const projects = [
       'https://raw.githubusercontent.com/sydney-rd/next_three_portfolio/main/public/assets/uglysoup.gif'
   },
   {
-    name: 'CLI TRIVIA',
+    name: 'ANNIVERSARY',
     category: 'WEWORK',
     description:
       "Built with Python. Continuing to indulge my passion for geography 🌎, I've created a Python Trivia game using the Command Line Interface. It includes features like scorekeeping, answer validation, and more. Test your knowledge with multiple-choice and fill-in questions to see how many you can answer correctly. Good luck!",

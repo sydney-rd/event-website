@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Canvas } from '@react-three/fiber'
-import { Environment, OrbitControls, Html, Cloud } from '@react-three/drei'
+import { Environment, OrbitControls, Html } from '@react-three/drei'
 import {
   EffectComposer,
   Vignette,
@@ -12,7 +12,6 @@ import ProjectCategories from '../components/projectCategories'
 import ProjectModal from '../components/projectmodal'
 import NavBar from '../components/navBar'
 import CloudScene from '../components/scenes/cloudScene.js'
-
 import {
   Flex,
   useDisclosure,
@@ -25,7 +24,6 @@ const MotionChakraLink = motion(ChakraLink)
 
 export default function ProjectPage() {
   const [selectedCategory, setSelectedCategory] = useState('VIACOM')
-  const [hoveredItem] = useState('')
   const [selectedProject, setSelectedProject] = useState(null)
   const { isOpen, onOpen, onClose } = useDisclosure()
 

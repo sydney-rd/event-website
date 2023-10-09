@@ -16,7 +16,7 @@ export default function AboutNavbar() {
 
   const iconStyle = {
     fontSize: responsiveStyles?.iconFontSize,
-    color: 'white',
+    color: '#0437F2',
     cursor: 'pointer'
   }
 
