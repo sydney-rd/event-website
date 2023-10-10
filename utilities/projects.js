@@ -29,7 +29,7 @@ export const projects = [
     category: 'VIACOM',
     color: '#293a99',
     description:
-      'I managed the South Side activation and both ComplexCon Festival in Chicago and BETX Festival in LA. I ensured that the activation ran smoothly and our talent and guests enjoyed their time',
+      'I managed the South Side activation at both ComplexCon Festival in Chicago and the BETX Festival in LA. Our South Side initiative introduced an engaging "rent-to-own" activation, providing attendees with a relaxing space to unwind, play video games, and participate in opportunities to win exciting prizes. My responsibilities included overseeing the seamless execution of the event, capturing photos, and gathering insightful statistics for our press and social media teams.',
     projectBg: [
       'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/SS/SS1.jpeg',
       'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/SS/SS.jpeg',
@@ -41,7 +41,7 @@ export const projects = [
     category: 'VIACOM',
     color: '#293a99',
     description:
-      'The Daily Show took its Donald Trump Twitter Library to Washington D.C, where I managed the event',
+      "The Daily Show brought its acclaimed Donald Trump Twitter Library to Washington D.C in celebration for Donald Trump's birthday! The Daily Show built an immersive and interactive experience that brough @realDonaldTrump's twitter feed to life. My responsibilities included overseeing the seamless execution of the activation and garnering essential photos and stastitcs for the team at Comedy Central.",
     projectBg: [
       'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/TDS/tds1.jpeg',
       'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/TDS/tds.jpeg',
@@ -53,7 +53,7 @@ export const projects = [
     category: 'VIACOM',
     color: '#293a99',
     description:
-      'From the Emmys after party, Premiere parties, to SXSW parties, I helped to oversee stakeholders for dozens of Viacom events. This included venue, swag, design assets, and more.',
+      'From the glamour of Emmy after-parties to evergreen events, to the exclusivity of premiere parties, my involvement spanned to a variety of unique events. I seamlessly ensured events flawless execution, delving into tasks such as crafting swag, managing assets, and meticulously working with guest lists and VIPS. This multifaceted experience not only enriched events but also enhanced my skill set significantly ',
     projectBg: [
       'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/Parties/sxsw.jpeg',
       'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/Parties/sxsw1.jpeg',
