@@ -53,8 +53,13 @@ export const projects = [
     color: 'blue',
     description:
       'For Your Consideration Events are advertisments to Emmy voters. These events are outlandish, creative, and unique. Here are a few marketing tactics we used for Yellowstone, Broad City, Corporate, and Drunk History.',
-    projectBg:
-      'https://raw.githubusercontent.com/sydney-rd/next_three_portfolio/main/public/assets/AdventureGame.gif'
+    projectBg: [
+      '.https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/FYC/BC2.jpeg',
+      'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/FYC/Corporate.jpeg',
+      'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/FYC/DH.jpeg',
+      'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/FYC/YS1.jpeg',
+      'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/FYC/YS.jpeg'
+    ]
   },
   {
     name: 'CONCERT',
