@@ -24,7 +24,7 @@ const ProjectModal = ({ isOpen, onClose, project }) => {
       top: '25.5rem',
       contentFontSize: '.9rem',
       showBorder: true,
-      descriptionWidth: '20rem',
+      descriptionWidth: '17rem',
       picMarginTop: '1rem',
       titlePaddingTop: '1.3rem'
     },
