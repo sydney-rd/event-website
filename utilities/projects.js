@@ -20,6 +20,7 @@ export const projects = [
       'South Park and 23andMe partnered up for their 23rd season, where I came up with the activation idea for a lab setting with a photo stasis chamber. The activation was a hit for both NYC and San Diego Comic-Con, with 224% increase of social media mentions from the previous activation!',
     projectBg: [
       'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/CC/NYCC.jpeg',
+      'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/CC/NYCC2.jpeg',
       'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/CC/NYCC1.jpeg'
     ]
   },
@@ -52,7 +53,7 @@ export const projects = [
     category: 'VIACOM',
     color: 'blue',
     description:
-      'For Your Consideration Events are advertisments to Emmy voters. These events are outlandish, creative, and unique. Here are a few marketing tactics we used for Yellowstone, Broad City, Corporate, and Drunk History.',
+      'For Your Consideration Events are advertisments to Emmy voters. These events are outlandish, creative, and unique. Here are a few marketing tactics we used for Broad City, Corporate, Drunk History, and Yellowstone.',
     projectBg: [
       'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/FYC/BC2.jpeg',
       'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/FYC/BC1.jpeg',
