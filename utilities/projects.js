@@ -25,20 +25,25 @@ export const projects = [
     ]
   },
   {
-    name: 'ComplexCon',
+    name: 'South Side',
     category: 'VIACOM',
     color: 'blue',
-    description: '',
-    projectBg:
-      'https://raw.githubusercontent.com/sydney-rd/next-three-portfolio/main/public/assets/ReactPattern.gif'
+    description:
+      'I managed the South Side activation and both ComplexCon in Chicago and BETX in LA. I ensured that the activation ran smoothly and our talent and guests enjoyed their time',
+    projectBg: [
+      'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/SS/SS1.jpeg',
+      'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/SS/SS.jpeg',
+      'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/SS/SS3.jpeg'
+    ]
   },
   {
-    name: 'BET',
+    name: 'The Daily Show',
     category: 'VIACOM',
     color: 'blue',
     description: '',
-    projectBg:
+    projectBg: [
       'https://raw.githubusercontent.com/sydney-rd/next_three_portfolio/main/public/assets/NASAPI.gif'
+    ]
   },
   {
     name: 'PARTIES',
