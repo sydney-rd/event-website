@@ -19,12 +19,12 @@ const ProjectModal = ({ isOpen, onClose, project }) => {
   const responsiveStyles = useBreakpointValue({
     base: {
       titleFontSize: '3.5rem',
-      picHeight: '24vh',
-      picWidth: '72vw',
+      picHeight: '28vh',
+      picWidth: '75vw',
       top: '19.5rem',
       contentFontSize: '.9rem',
       showBorder: true,
-      descriptionWidth: '12rem',
+      descriptionWidth: '15rem',
       picMarginTop: '0rem',
       titlePaddingTop: '1.3rem'
     },
@@ -41,8 +41,8 @@ const ProjectModal = ({ isOpen, onClose, project }) => {
       picWidth: '58vw',
       contentFontSize: '1rem',
       descriptionWidth: '40rem',
-      picMarginTop: '1rem',
-      titlePaddingTop: '-.5rem'
+      picMarginTop: '.1rem',
+      titlePaddingTop: '-.2rem'
     }
   })
 

@@ -4,7 +4,7 @@ export const projects = [
     category: 'VIACOM',
     description:
       'The 2019 World Pride Parade was the largest event in NYC history and the longest Pride March in the world at 12 hours and 30 minutes. I was responsible for 500+ walkers for our Comedy Central and TVland floats, handing out swag, and keeping our volunteers organized, happy, and excited!',
-    color: 'blue',
+    color: '#293a99',
     projectBg: [
       'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/WPP/TOT.jpeg',
       'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/WPP/WPP3.jpeg',
@@ -15,7 +15,7 @@ export const projects = [
   {
     name: 'Comic-Con',
     category: 'VIACOM',
-    color: 'blue',
+    color: '#293a99',
     description:
       'South Park and 23andMe partnered up for their 23rd season, where I came up with the activation idea for a lab setting with a photo stasis chamber. The activation was a hit for both NYC and San Diego Comic-Con, with 224% increase of social media mentions from the previous activation!',
     projectBg: [
@@ -27,7 +27,7 @@ export const projects = [
   {
     name: 'FESTIVALS',
     category: 'VIACOM',
-    color: 'blue',
+    color: '#293a99',
     description:
       'I managed the South Side activation and both ComplexCon Festival in Chicago and BETX Festival in LA. I ensured that the activation ran smoothly and our talent and guests enjoyed their time',
     projectBg: [
@@ -39,7 +39,7 @@ export const projects = [
   {
     name: 'The Daily Show',
     category: 'VIACOM',
-    color: 'blue',
+    color: '#293a99',
     description:
       'The Daily Show took its Donald Trump Twitter Library to Washington D.C, where I managed the event',
     projectBg: [
@@ -51,7 +51,7 @@ export const projects = [
   {
     name: 'PARTIES',
     category: 'VIACOM',
-    color: 'blue',
+    color: '#293a99',
     description:
       'From the Emmys after party, Premiere parties, to SXSW parties, I helped to oversee stakeholders for dozens of Viacom events. This included venue, swag, design assets, and more.',
     projectBg: [
@@ -64,7 +64,7 @@ export const projects = [
   {
     name: 'FYC - EMMYS',
     category: 'VIACOM',
-    color: 'blue',
+    color: '#293a99',
     description:
       'For Your Consideration Events are advertisments to Emmy voters. These events are outlandish, creative, and unique. Here are a few marketing tactics we used for Broad City, Corporate, Drunk History, and Yellowstone.',
     projectBg: [
@@ -79,7 +79,7 @@ export const projects = [
     name: 'CONCERT',
     category: 'WEWORK',
     description: '',
-    color: '#9966CC',
+    color: '#293a99',
     projectBg:
       'https://raw.githubusercontent.com/sydney-rd/next-three-portfolio/main/public/assets/TodoManager.gif'
   },
@@ -87,7 +87,7 @@ export const projects = [
     name: 'COMEDY SHOW',
     category: 'WEWORK',
     description: '',
-    color: '#EE78EE',
+    color: '#293a99',
     projectBg:
       'https://raw.githubusercontent.com/sydney-rd/next_three_portfolio/main/public/assets/uglysoup.gif'
   },
@@ -95,7 +95,7 @@ export const projects = [
     name: 'ANNIVERSARY',
     category: 'WEWORK',
     description: '',
-    color: '#EE82EE',
+    color: '#293a99',
     projectBg:
       'https://raw.githubusercontent.com/sydney-rd/next_three_portfolio/main/public/assets/FINALPython.gif'
   }
