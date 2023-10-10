@@ -99,7 +99,7 @@ export default function ProjectPage() {
                       filter: 'brightness(150%)',
                       color: project.color,
                       WebkitTextStroke: '3px',
-                      textShadow: `2px 3px 8px ${project.color}`,
+                      textShadow: `2px 3px 5px ${project.color}`,
                       WebkitTextStrokeColor: project.color,
                       _hover: {
                         color: 'transparent',
