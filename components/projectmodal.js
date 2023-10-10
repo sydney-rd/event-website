@@ -21,10 +21,10 @@ const ProjectModal = ({ isOpen, onClose, project }) => {
       titleFontSize: '3.5rem',
       picHeight: '30vh',
       picWidth: '77vw',
-      top: '58.5rem',
+      top: '20.5rem',
       contentFontSize: '.9rem',
       showBorder: true,
-      descriptionWidth: '15rem',
+      descriptionWidth: '20rem',
       picMarginTop: '1rem',
       titlePaddingTop: '1.3rem'
     },
