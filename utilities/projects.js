@@ -43,9 +43,9 @@ export const projects = [
     description:
       'The Daily Show took its Donald Trump Twitter Library to Washington D.C, where I managed the event',
     projectBg: [
-      'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/TDS/34669E93-11AC-485D-A93E-878468CBE811_1_201_a.jpeg',
-      'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/TDS/9C2C3254-C86F-4B91-858F-5F03A02247AC_1_201_a.jpeg',
-      'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/TDS/037D26A8-0A9E-4A50-94B7-BBB7B921B15C_1_201_a.jpeg'
+      'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/TDS/tds1.jpeg',
+      'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/TDS/tds.jpeg',
+      'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/TDS/tds2.jpeg'
     ]
   },
   {
@@ -54,8 +54,12 @@ export const projects = [
     color: 'blue',
     description:
       'From the Emmys after party, Premiere parties, to SXSW parties, I helped to oversee stakeholders for dozens of Viacom events. This included venue, swag, design assets, and more.',
-    projectBg:
-      'https://raw.githubusercontent.com/sydney-rd/next-three-portfolio/main/public/assets/SpaceTrivia.gif'
+    projectBg: [
+      'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/Parties/sxsw.jpeg',
+      'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/Parties/sxsw1.jpeg',
+      'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/Parties/premiere.jpeg',
+      'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/Parties/emmy.jpeg'
+    ]
   },
   {
     name: 'FYC - EMMYS',
