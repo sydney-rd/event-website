@@ -98,7 +98,7 @@ export default function ProjectPage() {
                       cursor: 'crosshair',
                       filter: 'brightness(150%)',
                       color: project.color,
-                      WebkitTextStroke: '4px',
+                      WebkitTextStroke: '3px',
                       textShadow: `2px 3px 8px ${project.color}`,
                       WebkitTextStrokeColor: project.color,
                       _hover: {
