@@ -25,11 +25,11 @@ export const projects = [
     ]
   },
   {
-    name: 'South Side',
+    name: 'FESTIVALS',
     category: 'VIACOM',
     color: 'blue',
     description:
-      'I managed the South Side activation and both ComplexCon in Chicago and BETX in LA. I ensured that the activation ran smoothly and our talent and guests enjoyed their time',
+      'I managed the South Side activation and both ComplexCon Festival in Chicago and BETX Festival in LA. I ensured that the activation ran smoothly and our talent and guests enjoyed their time',
     projectBg: [
       'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/SS/SS1.jpeg',
       'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/SS/SS.jpeg',
@@ -40,16 +40,20 @@ export const projects = [
     name: 'The Daily Show',
     category: 'VIACOM',
     color: 'blue',
-    description: '',
+    description:
+      'The Daily Show took its Donald Trump Twitter Library to Washington D.C, where I managed the event',
     projectBg: [
-      'https://raw.githubusercontent.com/sydney-rd/next_three_portfolio/main/public/assets/NASAPI.gif'
+      'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/TDS/34669E93-11AC-485D-A93E-878468CBE811_1_201_a.jpeg',
+      'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/TDS/9C2C3254-C86F-4B91-858F-5F03A02247AC_1_201_a.jpeg',
+      'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/TDS/037D26A8-0A9E-4A50-94B7-BBB7B921B15C_1_201_a.jpeg'
     ]
   },
   {
     name: 'PARTIES',
     category: 'VIACOM',
     color: 'blue',
-    description: '',
+    description:
+      'From the Emmys after party, Premiere parties, to SXSW parties, I helped to oversee stakeholders for dozens of Viacom events. This included venue, swag, design assets, and more.',
     projectBg:
       'https://raw.githubusercontent.com/sydney-rd/next-three-portfolio/main/public/assets/SpaceTrivia.gif'
   },
