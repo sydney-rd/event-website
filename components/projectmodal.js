@@ -19,8 +19,8 @@ const ProjectModal = ({ isOpen, onClose, project }) => {
   const responsiveStyles = useBreakpointValue({
     base: {
       titleFontSize: '3.5rem',
-      picHeight: '40vh',
-      picWidth: '40vw',
+      picHeight: '24vh',
+      picWidth: '72vw',
       top: '19.5rem',
       contentFontSize: '.9rem',
       showBorder: true,
