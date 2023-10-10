@@ -27,7 +27,7 @@ export const projects = [
     name: 'ComplexCon',
     category: 'VIACOM',
     color: 'blue',
-    description:
+    description: '',
     projectBg:
       'https://raw.githubusercontent.com/sydney-rd/next-three-portfolio/main/public/assets/ReactPattern.gif'
   },
@@ -35,7 +35,7 @@ export const projects = [
     name: 'BET',
     category: 'VIACOM',
     color: 'blue',
-    description:
+    description: '',
     projectBg:
       'https://raw.githubusercontent.com/sydney-rd/next_three_portfolio/main/public/assets/NASAPI.gif'
   },
@@ -43,22 +43,23 @@ export const projects = [
     name: 'PARTIES',
     category: 'VIACOM',
     color: 'blue',
-    description:
+    description: '',
     projectBg:
       'https://raw.githubusercontent.com/sydney-rd/next-three-portfolio/main/public/assets/SpaceTrivia.gif'
   },
   {
-    name: 'EMMY',
+    name: 'FYC - EMMYS',
     category: 'VIACOM',
     color: 'blue',
     description:
+      'For Your Consideration Events are advertisments to Emmy voters. These events are outlandish, creative, and unique. Here are a few marketing tactics we used for Yellowstone, Broad City, Corporate, and Drunk History.',
     projectBg:
       'https://raw.githubusercontent.com/sydney-rd/next_three_portfolio/main/public/assets/AdventureGame.gif'
   },
   {
     name: 'CONCERT',
     category: 'WEWORK',
-    description:
+    description: '',
     color: '#9966CC',
     projectBg:
       'https://raw.githubusercontent.com/sydney-rd/next-three-portfolio/main/public/assets/TodoManager.gif'
@@ -66,7 +67,7 @@ export const projects = [
   {
     name: 'COMEDY SHOW',
     category: 'WEWORK',
-    description:
+    description: '',
     color: '#EE78EE',
     projectBg:
       'https://raw.githubusercontent.com/sydney-rd/next_three_portfolio/main/public/assets/uglysoup.gif'
@@ -74,7 +75,7 @@ export const projects = [
   {
     name: 'ANNIVERSARY',
     category: 'WEWORK',
-    description:
+    description: '',
     color: '#EE82EE',
     projectBg:
       'https://raw.githubusercontent.com/sydney-rd/next_three_portfolio/main/public/assets/FINALPython.gif'
