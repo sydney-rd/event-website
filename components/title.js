@@ -79,7 +79,7 @@ const Title = () => {
           paddingRight="1rem"
           onClick={navigateToProjectPage}
         >
-          ENTER (WIP)
+          <strong>ENTER</strong>
         </Text>
       </Box>
     </Box>

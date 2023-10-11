@@ -38,7 +38,7 @@ const ProjectModal = ({ isOpen, onClose, project }) => {
     md: {
       titleFontSize: '7rem',
       picHeight: '57vh',
-      picWidth: '59vw',
+      picWidth: '57vw',
       contentFontSize: '1rem',
       descriptionWidth: '40rem',
       picMarginTop: '.1rem',

@@ -17,33 +17,27 @@ export default function About() {
   const responsiveStyles = useBreakpointValue({
     base: {
       titleFontSize: '1.5rem',
-      titleText: 'Events -> Tech',
       textFontSize: '.7rem',
       maxW: '16rem',
       secTitleFontSize: '1.1rem',
       codeDescriptionFontSize: '.8rem',
       codePaddingTop: '.3rem',
       summaryPaddingTop: '4rem',
-      codeTitlePaddingTop: '.2rem',
-      textShadow: 'none'
+      codeTitlePaddingTop: '.2rem'
     },
     sm: {
       titleFontSize: '2rem',
-      titleText: 'Events -> Tech',
       textFontSize: '.8rem',
       maxW: '26rem',
       summaryPaddingTop: '4rem',
       codeTitlePaddingTop: '.6rem',
-      textShadow: 'none',
       titleMaxW: '30rem'
     },
     md: {
       titleFontSize: '4rem',
-      titleText: 'Events -> Tech',
       textFontSize: '.9rem',
       maxW: '35rem',
       summaryPaddingTop: '1rem',
-      textShadow: '1px 2px 2px #8cacc4',
       titleMaxW: '60rem'
     }
   })
@@ -87,17 +81,16 @@ export default function About() {
           fontWeight="bold"
           fontFamily="Ailerons"
           fontSize={responsiveStyles?.titleFontSize}
-          textShadow={responsiveStyles?.textShadow}
           color="blue"
           textAlign="center"
           position="fixed"
           top="1rem"
           maxW={responsiveStyles?.titleMaxW}
         >
-          {responsiveStyles?.titleText}
+          EVENTS ⟷ TECH
         </Box>
         <Box
-          color="#0437F2"
+          color="blue"
           fontSize={responsiveStyles?.textFontSize}
           fontFamily="Verdana, Geneva, Tahoma, sans-serif"
           paddingTop={responsiveStyles?.summaryPaddingTop}
@@ -106,6 +99,9 @@ export default function About() {
         >
           <Box>
             <Text>
+              <br />
+              <br />
+              <br />
               <br />
               Hi - I&apos;m Sydney.
               <br />
@@ -117,24 +113,29 @@ export default function About() {
               realms of events and software development.
               <br />
               <br />
-              My background began in Hospitality and Events. I&apos;ve worked
-              with major companies like Hyundai Genesis, WeWork and ViacomCBS.
-              My time at WeWork led me to create 100+ valuable connections with
-              small and large businesses and creating 3 major events. I moved to
-              million dollar events at ViacomCBS for Comedy Central, Paramount
-              Network, and TVLand. I have worked hands on at activations such as
-              the World Pride Parade, Comic-Con, festivals, conventions, and
-              more. I have since explored events in luxury settings for Hyundai
-              Genesis, and delved into start-up's where I did sales and began a
-              bit of tech. While you will find me coding day to day, I also have
-              a passion for cars, travel, and studying maps and geography. I am
-              also an animal lover - cats and my Pitbull mix have my heart!
-              where I am self-taught and have recently graduated General
-              Assembly&apos;s Software Engineering Bootcamp as of May 2023!
+              My journey began in the dynamic world of Hospitality and Events,
+              where I honed my skills working for industry titans such as
+              Hyundai Genesis, WeWork, and ViacomCBS. During my tenure at
+              WeWork, I not only fostered meaningful relationships with over 100
+              businesses but also orchestrated three major events with over 200+
+              persons in attendance. My trajectory then led me to ViacomCBS,
+              where I helped manage million-dollar events for Comedy Central,
+              Paramount Network, and TVLand. I've been hands-on in creating,
+              executing, and supervising activations at major events such as the
+              World Pride Parade, Comic-Con, various festivals, and conventions,
+              showcasing my versatility and adaptability in diverse
+              environments.
+              <br />
+              <br />
+              While you will find me coding cool projects day to day, I also
+              have a passion for cars, travel, and studying maps and geography.
+              I am also an animal lover - cats and my Pitbull mix have my heart!
             </Text>
             <br />
             <br />
-            Check out my Tech website where I showcase my projects!
+            <strong>
+              Check out my Tech website where I showcase my coding projects!
+            </strong>
             <a
               href="https://sydneyrd-portfolio.netlify.app/"
               target="_blank"
@@ -142,7 +143,9 @@ export default function About() {
             >
               <br />
               <br />
-              Sydney's Tech Website
+              <strong>
+                <u>My Tech Website</u>
+              </strong>
             </a>
           </Box>
         </Box>

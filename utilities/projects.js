@@ -58,7 +58,7 @@ export const projects = [
       'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/Parties/sxsw.jpeg',
       'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/Parties/sxsw1.jpeg',
       'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/Parties/emmy.jpeg',
-      'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/Parties/D00773C6-72DF-495B-AAB0-2719F6DD1B60_1_201_a.jpeg',
+      'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/Parties/premiere.png',
       'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/Parties/CEFF62C0-3C50-484B-9475-EEB3759AD3F2_1_201_a.jpeg'
     ]
   },
