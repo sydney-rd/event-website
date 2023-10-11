@@ -17,7 +17,7 @@ export const projects = [
     category: 'VIACOM',
     color: '#293a99',
     description:
-      "I developed and curated the idea for South Park's activation at New York and San Diego Comic-Con, where South Park partnered up with 23&Me for their 23rd season. I developed the idea for a lab setting with a stasis chamber photobooth which was a hit with goers. The activation brought a 224% increase of social media mentions from the previous year!",
+      "I developed the idea for South Park's activation at New York and San Diego Comic-Con, where South Park partnered up with 23&Me. I curated a lab setting with a stasis chamber photobooth became a hit. The activation brought a 224% increase of social media mentions from the previous year!",
     projectBg: [
       'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/CC/CC.jpeg',
       'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/CC/NYCC3.jpeg',
@@ -29,7 +29,7 @@ export const projects = [
     category: 'VIACOM',
     color: '#293a99',
     description:
-      'I managed the South Side activation at both ComplexCon Festival in Chicago and the BETX Festival in LA. Our South Side initiative introduced an engaging "rent-to-own" activation, providing attendees with a relaxing space to unwind, play video games, and participate in opportunities to win exciting prizes. My responsibilities included overseeing the seamless execution of the event, capturing photos, and gathering statistics for our press and social media teams.',
+      'I managed the South Side activation at both ComplexCon in Chicago and BETX in LA. Our South Side initiative introduced an engaging "rent-to-own" activation, providing attendees with a relaxing space to unwind and participate to win exciting prizes.',
     projectBg: [
       'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/SS/SS1.jpeg',
       'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/SS/SS.jpeg',
@@ -41,7 +41,7 @@ export const projects = [
     category: 'VIACOM',
     color: '#293a99',
     description:
-      "The Daily Show brought its acclaimed Donald Trump Twitter Library to Washington D.C in celebration for Donald Trump's birthday! The Daily Show built an immersive and interactive experience that brough @realDonaldTrump's twitter feed to life. My responsibilities included overseeing the seamless execution of the activation and garnering essential photos and stastitcs for the team at Comedy Central.",
+      "The Daily Show brought its acclaimed Donald Trump Twitter Library to Washington D.C! We built an interactive experience that brought @realDonaldTrump's twitter feed to life. My presence at the event was to oversee the seamless execution of the activation.",
     projectBg: [
       'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/TDS/tds1.jpeg',
       'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/TDS/tds.jpeg',
@@ -53,7 +53,7 @@ export const projects = [
     category: 'VIACOM',
     color: '#293a99',
     description:
-      'From the glamour of Emmy after-parties to evergreen events, to the exclusivity of premiere parties, my involvement spanned to a variety of unique events. I seamlessly ensured events flawless execution, delving into tasks such as crafting swag, managing assets, and meticulously working with guest lists and VIPS. This multifaceted experience not only enriched events but also enhanced my skill set significantly ',
+      'From the glamour of Emmy after-parties to evergreen events, to the exclusivity of premiere parties, my involvement spanned to a variety of events. I seamlessly ensured events flawless execution, delving into tasks such as crafting swag, managing assets, and meticulously working with guest lists.',
     projectBg: [
       'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/Parties/sxsw.jpeg',
       'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/Parties/sxsw1.jpeg',
@@ -66,7 +66,7 @@ export const projects = [
     category: 'VIACOM',
     color: '#293a99',
     description:
-      'For Your Consideration Events are advertisments to Emmy voters. These events are outlandish, creative, and unique. Here are a few marketing tactics we used for Broad City, Corporate, Drunk History, and Yellowstone.',
+      'For Your Consideration Events are advertisments tailord towards Emmy voters. These advertisments are often outlandish, creative, and unique to cause a lot of press and social media mentions. Here are a few marketing tactics we created for Broad City, Corporate, Drunk History, and Yellowstone.',
     projectBg: [
       'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/FYC/BC2.jpeg',
       'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/FYC/BC1.jpeg',
