@@ -37,7 +37,7 @@ export const projects = [
     ]
   },
   {
-    name: 'The Daily Show',
+    name: 'TDS LIBRARY',
     category: 'VIACOM',
     color: '#293a99',
     description:
