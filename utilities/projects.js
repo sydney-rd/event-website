@@ -17,7 +17,7 @@ export const projects = [
     category: 'VIACOM',
     color: '#293a99',
     description:
-      'South Park and 23andMe partnered up for their 23rd season, where I came up with the activation idea for a lab setting with a photo stasis chamber. The activation was a hit for both NYC and San Diego Comic-Con, with 224% increase of social media mentions from the previous activation!',
+      "I developed and curated the idea for South Park's activation at New York and San Diego Comic-Con, where South Park partnered up with 23&Me for their 23rd season. I developed the idea for a lab setting with a stasis chamber photobooth which was a hit with goers. The activation brought a 224% increase of social media mentions from the previous year!",
     projectBg: [
       'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/CC/CC.jpeg',
       'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/CC/NYCC3.jpeg',
@@ -29,7 +29,7 @@ export const projects = [
     category: 'VIACOM',
     color: '#293a99',
     description:
-      'I managed the South Side activation at both ComplexCon Festival in Chicago and the BETX Festival in LA. Our South Side initiative introduced an engaging "rent-to-own" activation, providing attendees with a relaxing space to unwind, play video games, and participate in opportunities to win exciting prizes. My responsibilities included overseeing the seamless execution of the event, capturing photos, and gathering insightful statistics for our press and social media teams.',
+      'I managed the South Side activation at both ComplexCon Festival in Chicago and the BETX Festival in LA. Our South Side initiative introduced an engaging "rent-to-own" activation, providing attendees with a relaxing space to unwind, play video games, and participate in opportunities to win exciting prizes. My responsibilities included overseeing the seamless execution of the event, capturing photos, and gathering statistics for our press and social media teams.',
     projectBg: [
       'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/SS/SS1.jpeg',
       'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/SS/SS.jpeg',

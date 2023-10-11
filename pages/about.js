@@ -17,7 +17,7 @@ export default function About() {
   const responsiveStyles = useBreakpointValue({
     base: {
       titleFontSize: '1.5rem',
-      titleText: 'Events',
+      titleText: 'Events -> Tech',
       textFontSize: '.7rem',
       maxW: '16rem',
       secTitleFontSize: '1.1rem',
@@ -29,28 +29,21 @@ export default function About() {
     },
     sm: {
       titleFontSize: '2rem',
-      titleText: 'Events',
+      titleText: 'Events -> Tech',
       textFontSize: '.8rem',
       maxW: '26rem',
-      secTitleFontSize: '1.1rem',
-      codeDescriptionFontSize: '.8rem',
-      codePaddingTop: '.6rem',
       summaryPaddingTop: '4rem',
       codeTitlePaddingTop: '.6rem',
       textShadow: 'none',
       titleMaxW: '30rem'
     },
     md: {
-      titleFontSize: '2.7rem',
-      titleText: 'Events',
+      titleFontSize: '4rem',
+      titleText: 'Events -> Tech',
       textFontSize: '.9rem',
       maxW: '35rem',
-      secTitleFontSize: '2rem',
-      codeDescriptionFontSize: '.9rem',
-      codePaddingTop: '1rem',
-      summaryPaddingTop: '5rem',
-      codeTitlePaddingTop: '1rem',
-      textShadow: '1px 2px 2px blue',
+      summaryPaddingTop: '1rem',
+      textShadow: '1px 2px 2px #8cacc4',
       titleMaxW: '60rem'
     }
   })
@@ -95,7 +88,7 @@ export default function About() {
           fontFamily="Ailerons"
           fontSize={responsiveStyles?.titleFontSize}
           textShadow={responsiveStyles?.textShadow}
-          color="white"
+          color="blue"
           textAlign="center"
           position="fixed"
           top="1rem"
@@ -128,6 +121,18 @@ export default function About() {
               and have recently graduated General Assembly&apos;s Software
               Engineering Bootcamp as of May 2023!
             </Text>
+            <br />
+            <br />
+            Check out my Tech website where I showcase my projects!
+            <a
+              href="https://sydneyrd-portfolio.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <br />
+              <br />
+              Sydney's Tech Website
+            </a>
           </Box>
         </Box>
       </Box>
