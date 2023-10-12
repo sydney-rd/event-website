@@ -17,17 +17,15 @@ export default function About() {
   const responsiveStyles = useBreakpointValue({
     base: {
       titleFontSize: '1.5rem',
-      textFontSize: '.7rem',
+      textFontSize: '.75rem',
       maxW: '18rem',
-      summaryPaddingTop: '2rem',
-      codeTitlePaddingTop: '.2rem'
+      summaryPaddingTop: '.5rem'
     },
     sm: {
       titleFontSize: '2rem',
       textFontSize: '.8rem',
       maxW: '26rem',
       summaryPaddingTop: '4rem',
-      codeTitlePaddingTop: '.6rem',
       titleMaxW: '30rem'
     },
     md: {
