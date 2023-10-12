@@ -79,7 +79,8 @@ export const projects = [
   {
     name: 'CONCERT',
     category: 'WEWORK',
-    description: '',
+    description:
+      'I partnered with Anti-Fragile music studio to put on a live music concert for our WeWork members. Complete with sponsored whiskey, catered food, and a photobooth. Over 200 guests attended with a final budget of $100.',
     color: '#293a99',
     projectBg:
       'https://raw.githubusercontent.com/sydney-rd/next-three-portfolio/main/public/assets/TodoManager.gif'
@@ -96,7 +97,7 @@ export const projects = [
     name: 'ANNIVERSARY',
     category: 'WEWORK',
     description:
-      'I curated and led the execution of the WeWork Bryant Park 5th Year Anniversary party and infused it with my unique vision. The celebration included sponsors for drinks, a candy and dessert bar, and were paired with bites, a DJ, and an interactive art installation. Over 200 guests attended!',
+      'I curated and led the execution of the WeWork Bryant Park 5th Year Anniversary party and infused it with my unique vision. The celebration included sponsors for drinks, a candy and dessert bar, and were paired with bites, a DJ, balloon arch, coat-check, and an interactive art installation. Over 200 guests attended, with an event budget of $1600.',
     color: '#293a99',
     projectBg: [
       'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/WeWork/anniversary.jpeg',
