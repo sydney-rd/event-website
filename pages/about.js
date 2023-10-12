@@ -120,10 +120,10 @@ export default function About() {
               businesses but also orchestrated three major events with over 200+
               persons in attendance. My trajectory then led me to ViacomCBS,
               where I helped manage million-dollar events for Comedy Central,
-              Paramount Network, and TVLand. I've been hands-on in creating,
-              executing, and supervising activations at major events such as the
-              World Pride Parade, Comic-Con, various festivals, and conventions,
-              showcasing my versatility and adaptability in diverse
+              Paramount Network, and TVLand. I&apos;ve been hands-on in
+              creating, executing, and supervising activations at major events
+              such as the World Pride Parade, Comic-Con, various festivals, and
+              conventions, showcasing my versatility and adaptability in diverse
               environments.
               <br />
               <br />
