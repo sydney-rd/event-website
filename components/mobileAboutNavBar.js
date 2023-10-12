@@ -14,7 +14,7 @@ const iconStyle = {
 export default function MobileAboutNavBar() {
   return (
     <div>
-      <Box position="fixed" zIndex="1" top=".6rem" right=".3rem">
+      <Box position="fixed" zIndex="1" top="2rem" right=".3rem">
         <Link href="/" passHref>
           <Image
             src={Logo.src}

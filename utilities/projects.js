@@ -91,7 +91,7 @@ export const projects = [
     name: 'CONCERT',
     category: 'WEWORK',
     description:
-      'I partnered with Anti-Fragile music producer to put on a live music concert, Up The Staircase, for our WeWork members. Complete with sponsored whiskey, catered food, and a photobooth. Over 200 guests attended.',
+      'I partnered with Anti-Fragile music producer to produce a live music concert, Up the Staircase which featured their new artists. Complete with sponsored whiskey with catered food pairings, and a photobooth. Over 200 guests attended.',
     color: '#293a99',
     projectBg: [
       'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/WeWork/music.jpeg'

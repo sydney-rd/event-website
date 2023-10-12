@@ -18,11 +18,8 @@ export default function About() {
     base: {
       titleFontSize: '1.5rem',
       textFontSize: '.7rem',
-      maxW: '16rem',
-      secTitleFontSize: '1.1rem',
-      codeDescriptionFontSize: '.8rem',
-      codePaddingTop: '.3rem',
-      summaryPaddingTop: '4rem',
+      maxW: '18rem',
+      summaryPaddingTop: '2rem',
       codeTitlePaddingTop: '.2rem'
     },
     sm: {
