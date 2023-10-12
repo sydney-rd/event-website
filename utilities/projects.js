@@ -95,9 +95,10 @@ export const projects = [
   {
     name: 'ANNIVERSARY',
     category: 'WEWORK',
-    description: '',
+    description:
+      'I curated the WeWork Bryant Park 5th Year Anniversary, infusing it with my unique design vision. The celebration included a sponsored drinks, candy and dessert bar, food, DJ, and an interactive art installation that remains at the venue today. Stepping into a leadership role during the event, I guided my team to ensure flawless execution, creating an unforgettable experience for all attendees',
     color: '#293a99',
     projectBg:
-      'https://raw.githubusercontent.com/sydney-rd/next_three_portfolio/main/public/assets/FINALPython.gif'
+      'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/WeWork/anniversary.jpeg'
   }
 ]
