@@ -17,7 +17,7 @@ export default function About() {
   const responsiveStyles = useBreakpointValue({
     base: {
       titleFontSize: '1.5rem',
-      textFontSize: '.75rem',
+      textFontSize: '.7rem',
       maxW: '18rem',
       summaryPaddingTop: '.5rem'
     },
