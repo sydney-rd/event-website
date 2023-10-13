@@ -14,7 +14,7 @@ const iconStyle = {
 export default function MobileAboutNavBar() {
   return (
     <div>
-      <Box position="fixed" zIndex="1" top="2rem" right=".3rem">
+      <Box position="fixed" zIndex="1" top=".5rem" right=".3rem">
         <Link href="/" passHref>
           <Image
             src={Logo.src}
@@ -38,7 +38,7 @@ export default function MobileAboutNavBar() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <motion.span whileHover={{ color: 'pink' }} style={iconStyle}>
+          <motion.span whileHover={{ color: 'blue' }} style={iconStyle}>
             <FaLinkedin />
           </motion.span>
         </a>
@@ -47,7 +47,7 @@ export default function MobileAboutNavBar() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <motion.span whileHover={{ color: 'pink' }} style={iconStyle}>
+          <motion.span whileHover={{ color: 'blue' }} style={iconStyle}>
             <FaGithub />
           </motion.span>
         </a>
@@ -56,7 +56,7 @@ export default function MobileAboutNavBar() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <motion.span whileHover={{ color: 'pink' }} style={iconStyle}>
+          <motion.span whileHover={{ color: 'blue' }} style={iconStyle}>
             <FaEnvelope />
           </motion.span>
         </a>
@@ -65,7 +65,7 @@ export default function MobileAboutNavBar() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <motion.span whileHover={{ color: 'pink' }} style={iconStyle}>
+          <motion.span whileHover={{ color: 'blue' }} style={iconStyle}>
             <FaPaperclip />
           </motion.span>
         </a>

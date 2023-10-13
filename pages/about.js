@@ -19,7 +19,8 @@ export default function About() {
       titleFontSize: '1.5rem',
       textFontSize: '.7rem',
       maxW: '18rem',
-      summaryPaddingTop: '.5rem'
+      summaryPaddingTop: '.5rem',
+      titleMaxW: '10rem'
     },
     sm: {
       titleFontSize: '2rem',
@@ -82,7 +83,7 @@ export default function About() {
           top="1rem"
           maxW={responsiveStyles?.titleMaxW}
         >
-          EVENTS ⟷ TECH
+          EVENTS⟷TECH
         </Box>
         <Box
           color="blue"
