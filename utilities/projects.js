@@ -17,7 +17,7 @@ export const projects = [
     category: 'VIACOM',
     color: '#293a99',
     description:
-      "I developed the idea for South Park's activation at New York and San Diego Comic-Con, where South Park partnered up with 23&Me. I curated a lab setting with a stasis chamber photobooth became a hit. The activation brought a 224% increase of social media mentions from the previous year!",
+      "I developed the idea for South Park's activation at New York and San Diego Comic-Con, where South Park partnered up with 23&Me. I curated a lab setting with a stasis chamber photobooth which became a hit. The activation brought a 224% increase of social media mentions from the previous year!",
     projectBg: [
       'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/CC/CC.jpeg',
       'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/CC/NYCC3.jpeg',
@@ -53,7 +53,7 @@ export const projects = [
     category: 'VIACOM',
     color: '#293a99',
     description:
-      'From the glamour of Emmy after-parties to evergreen events, to the exclusivity of premiere parties, my involvement spanned to a variety of events. I seamlessly ensured events flawless execution, delving into tasks such as crafting swag, managing assets, and meticulously working with guest lists.',
+      'From the glamour of Emmy after-parties to evergreen events, to the exclusivity of premiere parties, my involvement spanned to a variety of events. I seamlessly ensured events flawless execution, and delving into tasks such as crafting swag, managing assets, and meticulously working with guest lists.',
     projectBg: [
       'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/Parties/sxsw.jpeg',
       'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/Parties/sxsw1.jpeg',
@@ -91,7 +91,7 @@ export const projects = [
     name: 'CONCERT',
     category: 'WEWORK',
     description:
-      'I partnered with Anti-Fragile music producer to produce a live music concert, Up the Staircase which featured their new artists. Complete with sponsored whiskey with catered food pairings, and a photobooth. Over 200 guests attended.',
+      'I partnered with Anti-Fragile music producer to showcase a live music concert, Up the Staircase, which featured their new artists. Complete with sponsored whiskey with catered food pairings, and a photobooth. Over 200 guests attended.',
     color: '#293a99',
     projectBg: [
       'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/WeWork/music.jpeg'
@@ -100,7 +100,8 @@ export const projects = [
   {
     name: 'COMEDY SHOW',
     category: 'WEWORK',
-    description: '',
+    description:
+      'SNL brought their comedians to WeWork for a live comedy show. We layed out a red carpet and the fancy comedy show came to life. Complete with catered food and drinks, our attendees laughed the night away!',
     color: '#293a99',
     projectBg: [
       'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/WeWork/comedy.jpeg'
