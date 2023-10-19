@@ -119,13 +119,14 @@ export default function About() {
               Paramount Network, and TVLand. I&apos;ve been hands-on in
               creating, executing, and supervising activations at major events
               such as the World Pride Parade, Comic-Con, various festivals, and
-              conventions, showcasing my versatility and adaptability in diverse
-              environments.
+              conventions. This successfully showcases my versatility and
+              adaptability in diverse environments.
               <br />
               <br />
               While you will find me coding cool projects day to day, I also
-              have a passion for cars, travel, and studying maps and geography.
-              I am also an animal lover - cats and my Pitbull mix have my heart!
+              have a passion for cars, traveling, and studying maps and
+              geography. I am also an animal lover - cats and my Pitbull mix
+              have my heart!
             </Text>
             <br />
             <br />
