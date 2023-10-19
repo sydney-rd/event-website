@@ -103,7 +103,7 @@ export default function About() {
               <br />
               <br />
               I am deeply passionate about the creative aspects of event
-              management and the continous learning opportunities within the
+              management and the continuous learning opportunities within the
               tech industry. Because of this, I decided to blend my two
               passions, cultivating transferable skills that span both the
               realms of events and software development.
