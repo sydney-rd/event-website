@@ -59,7 +59,7 @@ export default function Navbar() {
             </Link>
           </Box>
         </Box>
-        <Box pt="2">
+        <Box pt="2" pr="2">
           <Box transform="rotate(90deg)" whiteSpace="pre">
             <Link
               href="/projectPage"
