@@ -67,7 +67,7 @@ export default function Navbar() {
                 isLinkActive('/projectPage') ? activeLinkStyle : navBarStyle
               }
             >
-              PROJECTS
+              EVENTS
             </Link>
           </Box>
         </Box>
