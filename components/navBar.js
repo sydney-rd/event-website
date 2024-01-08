@@ -8,8 +8,9 @@ export default function Navbar() {
   const router = useRouter()
 
   const navBarStyle = {
-    color: 'blue',
+    color: 'white',
     whiteSpace: 'pre',
+    WebkitTextStroke: '1px #4B0082',
     transition: 'color 0.3s',
     fontSize: '.7rem',
     fontWeight: 'bold',
@@ -19,10 +20,9 @@ export default function Navbar() {
     userSelect: 'none',
     cursor: 'crosshair'
   }
-
   const activeLinkStyle = {
     ...navBarStyle,
-    borderBottom: '1.3px solid #0066FF'
+    borderBottom: '.6px solid white'
   }
 
   const isLinkActive = href => router.pathname === href

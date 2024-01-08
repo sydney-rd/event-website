@@ -56,7 +56,7 @@ export default function ProjectCategories({
               _focus: { boxShadow: 'none' },
               _visited: { boxShadow: 'none' },
               _focusVisible: { boxShadow: 'none' },
-              color: 'blue'
+              color: 'white'
             }}
           />
 
@@ -78,7 +78,7 @@ export default function ProjectCategories({
                   selectedCategory === category
                     ? projects.find(project => project.category === category)
                         .color
-                    : 'blue'
+                    : 'white'
                 return (
                   <motion.p
                     key={index}
@@ -107,7 +107,7 @@ export default function ProjectCategories({
           const categoryColor =
             selectedCategory === category
               ? projects.find(project => project.category === category).color
-              : 'blue'
+              : 'white'
 
           return (
             <motion.p

@@ -1,17 +1,11 @@
 import React, { useState } from 'react'
 import { Canvas } from '@react-three/fiber'
-import { Environment, OrbitControls, Html } from '@react-three/drei'
-import {
-  EffectComposer,
-  Vignette,
-  HueSaturation
-} from '@react-three/postprocessing'
+import { Sky, Stars, OrbitControls, Html } from '@react-three/drei'
 import { projects } from '../utilities/projects'
 import { motion } from 'framer-motion'
 import ProjectCategories from '../components/projectCategories'
 import ProjectModal from '../components/projectmodal'
 import NavBar from '../components/navBar'
-import CloudScene from '../components/scenes/cloudScene.js'
 import {
   Flex,
   useDisclosure,
@@ -26,6 +20,7 @@ export default function ProjectPage() {
   const [selectedCategory, setSelectedCategory] = useState('VIACOM')
   const [selectedProject, setSelectedProject] = useState(null)
   const { isOpen, onOpen, onClose } = useDisclosure()
+  const [hoveredItem] = useState('')
 
   // Modal
   const handleClick = project => {
@@ -67,21 +62,14 @@ export default function ProjectPage() {
           style={{ width: '100vw', height: '100vh' }}
         >
           <OrbitControls autoRotate autoRotateSpeed={0.3} maxDistance={60} />
-          <EffectComposer disableNormalPass multisampling={0}>
-            <Vignette offset={0.8} darkness={0.25} />
-            <HueSaturation hue={0.1} saturation={0.4} />
-          </EffectComposer>
-          <Environment
-            ground={{ height: 20, scale: 100 }}
-            files="https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/kloppenheim_06_puresky_1k.hdr"
-          />
-          {CloudScene()}
+          <Sky sunPosition={[0, 0, 0]} />
+          <Stars fade />
           <Html fullscreen transform>
             <VStack
               align="flex-end"
               pr={responsiveStyles?.projectPaddingRight}
               zIndex={0}
-              maxH="-5vh"
+              maxH="130vh"
               position="relative"
               visibility={isOpen ? 'hidden' : 'visible'}
               userSelect="none"
@@ -97,13 +85,15 @@ export default function ProjectPage() {
                       whiteSpace: 'nowrap',
                       cursor: 'crosshair',
                       filter: 'brightness(150%)',
-                      color: project.color,
-                      WebkitTextStroke: '3px',
-                      textShadow: `2px 3px 5px ${project.color}`,
+                      color:
+                        hoveredItem === project.name
+                          ? project.color
+                          : 'transparent',
+                      WebkitTextStroke: '2px',
                       WebkitTextStrokeColor: project.color,
                       _hover: {
-                        color: 'transparent',
-                        textShadow: `2px 2px 7px transparent`,
+                        color: project.color,
+                        textShadow: `2px 2px 8px ${project.color}`,
                         transition: '1s'
                       }
                     }}

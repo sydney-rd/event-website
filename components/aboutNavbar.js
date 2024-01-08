@@ -16,7 +16,7 @@ export default function AboutNavbar() {
 
   const iconStyle = {
     fontSize: responsiveStyles?.iconFontSize,
-    color: '#0096FF',
+    color: 'white',
     cursor: 'pointer'
   }
 
@@ -44,7 +44,7 @@ export default function AboutNavbar() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <motion.span whileHover={{ color: 'blue' }} style={iconStyle}>
+              <motion.span whileHover={{ color: 'pink' }} style={iconStyle}>
                 <FaLinkedin />
               </motion.span>
             </a>
@@ -56,7 +56,7 @@ export default function AboutNavbar() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <motion.span whileHover={{ color: 'blue' }} style={iconStyle}>
+            <motion.span whileHover={{ color: 'pink' }} style={iconStyle}>
               <FaGithub />
             </motion.span>
           </a>
@@ -67,7 +67,7 @@ export default function AboutNavbar() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <motion.span whileHover={{ color: 'blue' }} style={iconStyle}>
+            <motion.span whileHover={{ color: 'pink' }} style={iconStyle}>
               <FaEnvelope />
             </motion.span>
           </a>

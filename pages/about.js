@@ -2,14 +2,8 @@ import React from 'react'
 import { Box, Text, useBreakpointValue, useMediaQuery } from '@chakra-ui/react'
 import MobileAboutNavBar from '../components/mobileAboutNavBar.js'
 import AboutNavbar from '../components/aboutNavbar'
+import { OrbitControls, Sky, Stars } from '@react-three/drei'
 import { Canvas } from '@react-three/fiber'
-import { Environment, OrbitControls } from '@react-three/drei'
-import {
-  EffectComposer,
-  Vignette,
-  HueSaturation
-} from '@react-three/postprocessing'
-import CloudScene from '../components/scenes/cloudScene.js'
 
 export default function About() {
   const [isMobile] = useMediaQuery('(max-width: 768px)')
@@ -42,20 +36,10 @@ export default function About() {
     <Box position="relative" height="100vh">
       {!isMobile && <AboutNavbar />}
       {isMobile && <MobileAboutNavBar />}
-      <Canvas
-        camera={{ position: [0, 5, 30] }}
-        style={{ width: '100vw', height: '100vh' }}
-      >
+      <Canvas style={{ width: '100vw', height: '100vh' }}>
         <OrbitControls autoRotate autoRotateSpeed={0.3} maxDistance={60} />
-        <EffectComposer disableNormalPass multisampling={0}>
-          <Vignette offset={0.8} darkness={0.25} />
-          <HueSaturation hue={0.1} saturation={0.4} />
-        </EffectComposer>
-        <Environment
-          ground={{ height: 20, scale: 100 }}
-          files="https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/kloppenheim_06_puresky_1k.hdr"
-        />
-        {CloudScene()}
+        <Sky sunPosition={[0, 0, 0]} />
+        <Stars fade />
       </Canvas>
       <Box
         sx={{
@@ -77,16 +61,17 @@ export default function About() {
           fontWeight="bold"
           fontFamily="Ailerons"
           fontSize={responsiveStyles?.titleFontSize}
-          color="blue"
+          color="white"
           textAlign="center"
           position="fixed"
+          textShadow="3px 3px 6px #5F1DA9"
           top="1rem"
           maxW={responsiveStyles?.titleMaxW}
         >
-          EVENT MANAGEMENT
+          EVENTS
         </Box>
         <Box
-          color="blue"
+          color="white"
           fontSize={responsiveStyles?.textFontSize}
           fontFamily="Verdana, Geneva, Tahoma, sans-serif"
           paddingTop={responsiveStyles?.summaryPaddingTop}
@@ -116,22 +101,21 @@ export default function About() {
               community in the wellness and charity tech space, currently in
               stealth mode, that provides a mobile platform and digital tools
               for its members to track their growth journey and overflow back to
-              the community. Here I learned how to code, while building upon my
-              BD and networking skills!
+              the community. Here I learned how to code, which has been a very
+              rewarding skill, while leading business development, partnerships,
+              and events.
+              <br />
+              <br />
+              While you'll find me reminiscing about the amazing memories I've
+              made producing events, I also continue to code daily and create
+              really cool projects (including this one!) I also have a passion
+              for studying geography and cultures, cars, cats, and my
+              pitbull-mix!
               <br />
               <br />
             </Text>
             <br />
             <br />
-            <a
-              href="https://sydneyrd-portfolio.netlify.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <strong>
-                <u>Check out my tech website!</u>
-              </strong>
-            </a>
           </Box>
         </Box>
       </Box>

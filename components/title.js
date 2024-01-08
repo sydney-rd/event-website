@@ -50,36 +50,36 @@ const Title = () => {
         <Box display="flex" justifyContent="center" paddingRight="1rem">
           <AnimatedText
             text="SYDNEY"
-            colors={['#7393B3', '#0000FF', '#c0c0c0']}
+            colors={['#4B0090', '#DE91BE', '#4B0090']}
           />
           <Box marginX=".3rem"></Box>
           <AnimatedText
             text="DAVID"
-            colors={['#7393B3', '#0000FF', '#c0c0c0']}
+            colors={['#4B0090', '#DE91BE', '#4B0090']}
           />
         </Box>
         <Box display="flex" justifyContent="center">
           <AnimatedText
-            text="HOSPITALITY  &"
-            colors={['#c0c0c0', '#7393B3', '#0000FF']}
+            text="EVENTS"
+            colors={['#4B0090', '#DE91BE', '#4B0090']}
           />
-          <Box marginX=".7rem">
+          {/* <Box marginX=".7rem">
             <AnimatedText
-              text="EVENTS"
-              colors={['#c0c0c0', '#7393B3', '#0000FF']}
+              text="DEVELOPER"
+              colors={['#4B0090', '#DE91BE', '#4B0090']}
             />
-          </Box>
+          </Box> */}
         </Box>
         <Text
           fontFamily="Ailerons"
           userSelect="none"
-          color="blue"
+          color="white"
           fontSize={responsiveStyles?.enterFontSize}
           cursor="crosshair"
           paddingRight="1rem"
           onClick={navigateToProjectPage}
         >
-          <strong>ENTER</strong>
+          ENTER
         </Text>
       </Box>
     </Box>

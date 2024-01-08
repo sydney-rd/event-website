@@ -4,7 +4,7 @@ export const projects = [
     category: 'VIACOM',
     description:
       'The 2019 World Pride Parade was the largest event in NYC history and the longest Pride March in the world at 12 hours and 30 minutes. I was responsible for 500+ walkers for our Comedy Central and TVland floats, handing out swag, and keeping our volunteers organized, happy, and excited!',
-    color: '#293a99',
+    color: '#5F1DA9',
     projectBg: [
       'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/WPP/TOT.jpeg',
       'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/WPP/WPP3.jpeg',
@@ -15,7 +15,7 @@ export const projects = [
   {
     name: 'Comic-Con',
     category: 'VIACOM',
-    color: '#293a99',
+    color: '#5F3DA9',
     description:
       "I developed the idea for South Park's activation at New York and San Diego Comic-Con, where South Park partnered up with 23&Me. I curated a lab setting with a stasis chamber photobooth which became a hit. The activation brought a 224% increase of social media mentions from the previous year!",
     projectBg: [
@@ -27,7 +27,7 @@ export const projects = [
   {
     name: 'FESTIVALS',
     category: 'VIACOM',
-    color: '#293a99',
+    color: '#5F4DA9',
     description:
       'I managed the South Side activation at both ComplexCon in Chicago and BETX in LA. Our South Side initiative introduced an engaging "rent-to-own" activation, providing attendees with a relaxing space to unwind and participate to win exciting prizes.',
     projectBg: [
@@ -39,7 +39,7 @@ export const projects = [
   {
     name: 'TDS LIBRARY',
     category: 'VIACOM',
-    color: '#293a99',
+    color: '#5F3DA0',
     description:
       "The Daily Show brought its acclaimed Donald Trump Twitter Library to Washington D.C! We built an interactive experience that brought @realDonaldTrump's twitter feed to life. My presence at the event was to oversee the seamless execution of the activation.",
     projectBg: [
@@ -51,7 +51,7 @@ export const projects = [
   {
     name: 'PARTIES',
     category: 'VIACOM',
-    color: '#293a99',
+    color: '#8470DB',
     description:
       'From the glamour of Emmy after-parties to evergreen events, to the exclusivity of premiere parties, my involvement spanned to a variety of events. I seamlessly ensured events flawless execution, and delving into tasks such as crafting swag, managing assets, and meticulously working with guest lists.',
     projectBg: [
@@ -65,7 +65,7 @@ export const projects = [
   {
     name: 'FYC - EMMYS',
     category: 'VIACOM',
-    color: '#293a99',
+    color: '#9370DB',
     description:
       'For Your Consideration Events are advertisments tailord towards Emmy voters. These advertisments are often outlandish, creative, and unique to cause a lot of press and social media mentions. Here are a few marketing tactics we created for Broad City, Corporate, Drunk History, and Yellowstone.',
     projectBg: [
@@ -81,7 +81,7 @@ export const projects = [
     category: 'WEWORK',
     description:
       'I curated and led the execution of our Bryant Park 5th Year Anniversary party and infused it with my unique vision. The celebration included sponsors for drinks, a candy and dessert bar, and were paired with bites, a DJ, and an interactive art installation. Over 200 guests attended.',
-    color: '#293a99',
+    color: '#9966CC',
     projectBg: [
       'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/WeWork/anniversary.jpeg',
       'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/WeWork/Image%2010-12-23%20at%2012.55%20PM.jpeg'
@@ -92,7 +92,7 @@ export const projects = [
     category: 'WEWORK',
     description:
       'I partnered with Anti-Fragile music producer to showcase a live music concert, Up the Staircase, which featured their new artists. Complete with sponsored whiskey with catered food pairings, and a photobooth. Over 200 guests attended.',
-    color: '#293a99',
+    color: '#EE78EE',
     projectBg: [
       'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/WeWork/music.jpeg'
     ]
@@ -102,7 +102,7 @@ export const projects = [
     category: 'WEWORK',
     description:
       'SNL brought their comedians to WeWork for a live comedy show. We layed out a red carpet and the fancy comedy show came to life. Complete with catered food and drinks, our attendees laughed the night away!',
-    color: '#293a99',
+    color: '#EE82EE',
     projectBg: [
       'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/WeWork/comedy.jpeg'
     ]

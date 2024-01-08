@@ -38,7 +38,7 @@ export default function MobileAboutNavBar() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <motion.span whileHover={{ color: 'blue' }} style={iconStyle}>
+          <motion.span whileHover={{ color: 'pink' }} style={iconStyle}>
             <FaLinkedin />
           </motion.span>
         </a>
@@ -47,7 +47,7 @@ export default function MobileAboutNavBar() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <motion.span whileHover={{ color: 'blue' }} style={iconStyle}>
+          <motion.span whileHover={{ color: 'pink' }} style={iconStyle}>
             <FaGithub />
           </motion.span>
         </a>
@@ -56,7 +56,7 @@ export default function MobileAboutNavBar() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <motion.span whileHover={{ color: 'blue' }} style={iconStyle}>
+          <motion.span whileHover={{ color: 'pink' }} style={iconStyle}>
             <FaEnvelope />
           </motion.span>
         </a>
@@ -65,7 +65,7 @@ export default function MobileAboutNavBar() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <motion.span whileHover={{ color: 'blue' }} style={iconStyle}>
+          <motion.span whileHover={{ color: 'pink' }} style={iconStyle}>
             <FaPaperclip />
           </motion.span>
         </a>

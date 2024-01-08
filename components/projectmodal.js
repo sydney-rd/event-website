@@ -103,7 +103,7 @@ const ProjectModal = ({ isOpen, onClose, project }) => {
           <Carousel
             showStatus={false}
             showThumbs={false}
-            transitionTime={2000}
+            transitionTime={1800}
             autoPlay
             interval={4500}
             emulateTouch

@@ -45,7 +45,7 @@ const Website = ({ Component, pageProps, router }) => {
             alignItems: 'center',
             width: '100vw',
             height: '100vh',
-            backgroundColor: '#8cacc4',
+            backgroundColor: 'black',
             color: 'white',
             fontSize: '2rem'
           }}
@@ -54,11 +54,11 @@ const Website = ({ Component, pageProps, router }) => {
             value={loadingProgress}
             size="sm"
             w="20%"
-            colorScheme="blue"
+            colorScheme="purple"
           />
         </div>
       ) : (
-        <div style={{ backgroundColor: '#8cacc4' }}>
+        <div style={{ backgroundColor: 'black' }}>
           <motion.div
             key={router.route}
             initial="initial"
