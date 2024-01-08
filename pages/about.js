@@ -106,10 +106,10 @@ export default function About() {
               and events.
               <br />
               <br />
-              While you'll find me reminiscing about the amazing memories I've
-              made producing events, I also continue to code daily and create
-              really cool projects (including this one!) I also have a passion
-              for studying geography and cultures, cars, cats, and my
+              While you&apos;ll find me reminiscing about the amazing memories
+              I&apos;ve made producing events, I also continue to code daily and
+              create really cool projects (including this one!) I also have a
+              passion for studying geography and cultures, cars, cats, and my
               pitbull-mix!
               <br />
               <br />
