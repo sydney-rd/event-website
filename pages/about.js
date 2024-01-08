@@ -83,7 +83,7 @@ export default function About() {
           top="1rem"
           maxW={responsiveStyles?.titleMaxW}
         >
-          EVENTS⟷TECH
+          EVENT MANAGEMENT
         </Box>
         <Box
           color="blue"
@@ -99,49 +99,37 @@ export default function About() {
               <br />
               <br />
               <br />
-              Hi - I&apos;m Sydney.
+              I embarked on my professional journey in the vibrant world of
+              hospitality and events, working for industry giants like Hyundai
+              Genesis, WeWork, and ViacomCBS for Comedy Central, TVLand, and
+              Paramount Network. My experience spans from building events from
+              the ground up to managing the execution of multi-million dollar
+              productions, both which fueled my passion for events.
+              <br />
+              <br />I thrive on creativity and immersing myself in the world of
+              experiential marketing, partnerships, and business development.
+              Working in events is not just a job but a gratifying journey,
+              witnessing the tangible results of hard work and seeing it come to
+              life.
+              <br />
+              <br />I am also a co-founder to Kalyani, a healthy-lifestyle
+              community in the wellness and charity tech space, currently in
+              stealth mode, that provides a mobile platform and digital tools
+              for its members to track their growth journey and overflow back to
+              the community. Here I learned how to code, while building upon my
+              BD and networking skills!
               <br />
               <br />
-              I am deeply passionate about the creative aspects of event
-              management and the continuous learning opportunities within the
-              tech industry. Because of this, I decided to blend my two
-              passions, cultivating transferable skills that span both the
-              realms of events and software development.
-              <br />
-              <br />
-              My journey began in the dynamic world of Hospitality and Events,
-              where I honed my skills working for industry titans such as
-              Hyundai Genesis, WeWork, and ViacomCBS. During my tenure at
-              WeWork, I not only fostered meaningful relationships with over 100
-              businesses but also orchestrated three major events with over 200+
-              persons in attendance. My trajectory then led me to ViacomCBS,
-              where I helped manage million-dollar events for Comedy Central,
-              Paramount Network, and TVLand. I&apos;ve been hands-on in
-              creating, executing, and supervising activations at major events
-              such as the World Pride Parade, Comic-Con, various festivals, and
-              conventions. This successfully showcases my versatility and
-              adaptability in diverse environments.
-              <br />
-              <br />
-              While you will find me coding cool projects day to day, I also
-              have a passion for cars, traveling, and studying maps and
-              geography. I am also an animal lover - cats and my Pitbull mix
-              have my heart!
             </Text>
             <br />
             <br />
-            <strong>
-              Check out my Tech website where I showcase my coding projects!
-            </strong>
             <a
               href="https://sydneyrd-portfolio.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <br />
-              <br />
               <strong>
-                <u>My Tech Website</u>
+                <u>Check out my tech website!</u>
               </strong>
             </a>
           </Box>
