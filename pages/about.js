@@ -10,11 +10,11 @@ export default function About() {
 
   const responsiveStyles = useBreakpointValue({
     base: {
-      titleFontSize: '1.5rem',
+      titleFontSize: '1.7rem',
       textFontSize: '.7rem',
       maxW: '17rem',
       summaryPaddingTop: '.5rem',
-      titleMaxW: '10rem'
+      titleMaxW: '11rem'
     },
     sm: {
       titleFontSize: '2rem',
@@ -57,7 +57,7 @@ export default function About() {
         }}
       >
         <Box
-          letterSpacing="1rem"
+          letterSpacing=".6rem"
           fontWeight="bold"
           fontFamily="Ailerons"
           fontSize={responsiveStyles?.titleFontSize}
@@ -65,7 +65,7 @@ export default function About() {
           textAlign="center"
           position="fixed"
           textShadow="2px 2px 4px #5F1DA9"
-          top="1rem"
+          top="1.3rem"
           maxW={responsiveStyles?.titleMaxW}
         >
           EVENTS
@@ -84,10 +84,10 @@ export default function About() {
               <br />
               <br />
               <br />
-              I embarked on journey in the vibrant world of hospitality and
-              events, working for industry giants like Hyundai Genesis, WeWork,
-              and ViacomCBS for Comedy Central, TVLand, and Paramount Network.
-              My experience spans from building events from the ground up to
+              I embarked on journey inside the world of hospitality and events,
+              working for industry giants like Hyundai Genesis, WeWork, and
+              ViacomCBS for Comedy Central, TVLand, and Paramount Network. My
+              experience spans from building events from the ground up to
               managing the execution of multi-million dollar productions, both
               which fueled my passion for events.
               <br />
