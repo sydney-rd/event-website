@@ -63,12 +63,12 @@ const Title = () => {
             text="EVENTS"
             colors={['#4B0090', '#DE91BE', '#4B0090']}
           />
-          {/* <Box marginX=".7rem">
+          <Box marginX=".7rem">
             <AnimatedText
-              text="DEVELOPER"
+              text="MANAGEMENT"
               colors={['#4B0090', '#DE91BE', '#4B0090']}
             />
-          </Box> */}
+          </Box>
         </Box>
         <Text
           fontFamily="Ailerons"
