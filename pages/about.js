@@ -10,7 +10,7 @@ export default function About() {
 
   const responsiveStyles = useBreakpointValue({
     base: {
-      titleFontSize: '1.7rem',
+      titleFontSize: '2rem',
       textFontSize: '.7rem',
       maxW: '17rem',
       summaryPaddingTop: '.5rem',
@@ -57,7 +57,7 @@ export default function About() {
         }}
       >
         <Box
-          letterSpacing=".6rem"
+          letterSpacing=".4rem"
           fontWeight="bold"
           fontFamily="Ailerons"
           fontSize={responsiveStyles?.titleFontSize}
@@ -65,7 +65,7 @@ export default function About() {
           textAlign="center"
           position="fixed"
           textShadow="2px 2px 4px #5F1DA9"
-          top="1.3rem"
+          top="2rem"
           maxW={responsiveStyles?.titleMaxW}
         >
           EVENTS
