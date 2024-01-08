@@ -60,7 +60,7 @@ const Title = () => {
         </Box>
         <Box display="flex" justifyContent="center">
           <AnimatedText
-            text="EVENTS"
+            text="EVENT"
             colors={['#4B0090', '#DE91BE', '#4B0090']}
           />
           <Box marginX=".7rem">
