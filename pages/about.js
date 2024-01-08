@@ -12,7 +12,7 @@ export default function About() {
     base: {
       titleFontSize: '1.5rem',
       textFontSize: '.7rem',
-      maxW: '18rem',
+      maxW: '17rem',
       summaryPaddingTop: '.5rem',
       titleMaxW: '10rem'
     },
@@ -64,7 +64,7 @@ export default function About() {
           color="white"
           textAlign="center"
           position="fixed"
-          textShadow="3px 3px 6px #5F1DA9"
+          textShadow="2px 2px 4px #5F1DA9"
           top="1rem"
           maxW={responsiveStyles?.titleMaxW}
         >
@@ -84,33 +84,31 @@ export default function About() {
               <br />
               <br />
               <br />
-              I embarked on my professional journey in the vibrant world of
-              hospitality and events, working for industry giants like Hyundai
-              Genesis, WeWork, and ViacomCBS for Comedy Central, TVLand, and
-              Paramount Network. My experience spans from building events from
-              the ground up to managing the execution of multi-million dollar
-              productions, both which fueled my passion for events.
+              I embarked on journey in the vibrant world of hospitality and
+              events, working for industry giants like Hyundai Genesis, WeWork,
+              and ViacomCBS for Comedy Central, TVLand, and Paramount Network.
+              My experience spans from building events from the ground up to
+              managing the execution of multi-million dollar productions, both
+              which fueled my passion for events.
               <br />
               <br />I thrive on creativity and immersing myself in the world of
               experiential marketing, partnerships, and business development.
-              Working in events is not just a job but a gratifying journey,
-              witnessing the tangible results of hard work and seeing it come to
-              life.
+              Working in events is a gratifying journey, witnessing the results
+              of hard work and seeing your event come to life.
               <br />
-              <br />I am also a co-founder to Kalyani, a healthy-lifestyle
+              <br />I became a co-founder to Kalyani, a healthy-lifestyle
               community in the wellness and charity tech space, currently in
               stealth mode, that provides a mobile platform and digital tools
               for its members to track their growth journey and overflow back to
               the community. Here I learned how to code, which has been a very
-              rewarding skill, while leading business development, partnerships,
-              and events.
+              rewarding skill, while also leading business development,
+              partnerships, and events.
               <br />
               <br />
               While you&apos;ll find me reminiscing about the amazing memories
               I&apos;ve made producing events, I also continue to code daily and
               create really cool projects (including this one!) I also have a
-              passion for studying geography and cultures, cars, cats, and my
-              pitbull-mix!
+              passion for studying geography, cars, cats, and my pitbull-mix!
               <br />
               <br />
             </Text>
