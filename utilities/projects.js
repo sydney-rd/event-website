@@ -15,7 +15,7 @@ export const projects = [
   {
     name: 'Comic-Con',
     category: 'VIACOM',
-    color: '#5F3DA9',
+    color: '#5F1DA1',
     description:
       "I developed the idea for South Park's activation at New York and San Diego Comic-Con, where South Park partnered up with 23&Me. I curated a lab setting with a stasis chamber photobooth which became a hit. The activation brought a 224% increase of social media mentions from the previous year!",
     projectBg: [
@@ -27,7 +27,7 @@ export const projects = [
   {
     name: 'FESTIVALS',
     category: 'VIACOM',
-    color: '#5F4DA9',
+    color: '#6F3DA0',
     description:
       'I managed the South Side activation at both ComplexCon in Chicago and BETX in LA. Our South Side initiative introduced an engaging "rent-to-own" activation, providing attendees with a relaxing space to unwind and participate to win exciting prizes.',
     projectBg: [
@@ -39,7 +39,7 @@ export const projects = [
   {
     name: 'TDS LIBRARY',
     category: 'VIACOM',
-    color: '#5F3DA0',
+    color: '#7F4DA9',
     description:
       "The Daily Show brought its acclaimed Donald Trump Twitter Library to Washington D.C! We built an interactive experience that brought @realDonaldTrump's twitter feed to life. My presence at the event was to oversee the seamless execution of the activation.",
     projectBg: [
@@ -51,7 +51,7 @@ export const projects = [
   {
     name: 'PARTIES',
     category: 'VIACOM',
-    color: '#8470DB',
+    color: '#9560DB',
     description:
       'From the glamour of Emmy after-parties to evergreen events, to the exclusivity of premiere parties, my involvement spanned to a variety of events. I seamlessly ensured events flawless execution, and delving into tasks such as crafting swag, managing assets, and meticulously working with guest lists.',
     projectBg: [
@@ -81,7 +81,7 @@ export const projects = [
     category: 'WEWORK',
     description:
       'I curated and led the execution of our Bryant Park 5th Year Anniversary party and infused it with my unique vision. The celebration included sponsors for drinks, a candy and dessert bar, and were paired with bites, a DJ, and an interactive art installation. Over 200 guests attended.',
-    color: '#9966CC',
+    color: '#8966CC',
     projectBg: [
       'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/WeWork/anniversary.jpeg',
       'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/WeWork/Image%2010-12-23%20at%2012.55%20PM.jpeg'
@@ -92,7 +92,7 @@ export const projects = [
     category: 'WEWORK',
     description:
       'I partnered with Anti-Fragile music producer to showcase a live music concert, Up the Staircase, which featured their new artists. Complete with sponsored whiskey with catered food pairings, and a photobooth. Over 200 guests attended.',
-    color: '#EE78EE',
+    color: '#EE6EE2',
     projectBg: [
       'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/WeWork/music.jpeg'
     ]
@@ -102,7 +102,7 @@ export const projects = [
     category: 'WEWORK',
     description:
       'SNL brought their comedians to WeWork for a live comedy show. We layed out a red carpet and the fancy comedy show came to life. Complete with catered food and drinks, our attendees laughed the night away!',
-    color: '#EE82EE',
+    color: '#EE7EE2',
     projectBg: [
       'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/WeWork/comedy.jpeg'
     ]
@@ -111,10 +111,10 @@ export const projects = [
     name: 'EVENTS SPEECH',
     category: 'GENESIS',
     description:
-      'This was a moment during my speech to executives, including the Global COO of Hyundai Motor Group and the CEO of Genesis North America, outlining our vision for future events in the Genesis spaces in New York City.',
-    color: '#EE82EE',
+      'This was a moment during one of my speeches to our executives, including the Global COO of Hyundai Motor Group and the CEO of Genesis North America. Here, I outlined our vision for future events and marketing strategies in the Genesis spaces in New York City.',
+    color: '#EE8EE2',
     projectBg: [
-      'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/WeWork/comedy.jpeg'
+      'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/Genesis/Genesis.jpeg'
     ]
   }
 ]
