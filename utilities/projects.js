@@ -108,7 +108,7 @@ export const projects = [
     ]
   },
   {
-    name: 'EVENTS SPEECH',
+    name: 'SPEECH',
     category: 'GENESIS',
     description:
       'This was a moment during one of my speeches to our executives, including the Global COO of Hyundai Motor Group and the CEO of Genesis North America. Here, I outlined our vision for future events and marketing strategies in the Genesis spaces in New York City.',
