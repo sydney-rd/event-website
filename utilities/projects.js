@@ -106,5 +106,15 @@ export const projects = [
     projectBg: [
       'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/WeWork/comedy.jpeg'
     ]
+  },
+  {
+    name: 'EVENTS SPEECH',
+    category: 'GENESIS',
+    description:
+      'This was a moment during my speech to executives, including the Global COO of Hyundai Motor Group and the CEO of Genesis North America, outlining our vision for future events in the Genesis spaces in New York City.',
+    color: '#EE82EE',
+    projectBg: [
+      'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/WeWork/comedy.jpeg'
+    ]
   }
 ]
