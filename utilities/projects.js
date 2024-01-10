@@ -101,14 +101,14 @@ export const projects = [
     name: 'COMEDY SHOW',
     category: 'WEWORK',
     description:
-      'SNL brought their comedians to WeWork for a live comedy show. We layed out a red carpet and the fancy comedy show came to life. Complete with catered food and drinks, our attendees laughed the night away!',
+      'SNL brought their famed comedians to WeWork for a live comedy show. We layed out a red carpet and the fancy comedy show came to life. Complete with catered food, a popcorn machine, and drinks, our attendees laughed the night away!',
     color: '#EE7EE2',
     projectBg: [
       'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/WeWork/comedy.jpeg'
     ]
   },
   {
-    name: 'SPEECH',
+    name: 'EXEC SPEECH',
     category: 'GENESIS',
     description:
       'This was a moment during one of my speeches to our executives, including the Global COO of Hyundai Motor Group and the CEO of Genesis North America. Here, I outlined our vision for future events and marketing strategies in the Genesis spaces in New York City.',
