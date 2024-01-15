@@ -53,7 +53,7 @@ export const projects = [
     category: 'VIACOM',
     color: '#9560DB',
     description:
-      'From the glamour of Emmy after-parties to evergreen events, to the exclusivity of premiere parties, my involvement spanned to a variety of events. I seamlessly ensured events flawless execution, and delving into tasks such as crafting swag, managing assets, and meticulously working with guest lists.',
+      'From the glamour of Emmy after-parties to evergreen events, to the exclusivity of premiere parties, my involvement spanned to a variety of events. I seamlessly ensured events flawless execution, and delving into tasks such as crafting swag, managing assets, and sending out VIP guest lists.',
     projectBg: [
       'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/Parties/sxsw.jpeg',
       'https://raw.githubusercontent.com/sydney-rd/event-website/main/public/assets/photos/Parties/sxsw1.jpeg',
