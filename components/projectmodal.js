@@ -54,12 +54,13 @@ const ProjectModal = ({ isOpen, onClose, project }) => {
       initial={{ opacity: 0, scale: 0.8 }}
       animate={{ opacity: 1, scale: 1 }}
       exit={{ opacity: 0, scale: 0.8 }}
+      transition={{ duration: 0.5 }}
     >
       <ModalOverlay />
       <MotionModalContent
         initial={{ y: -20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        // transition={{ duration: 0.3, delay: 0.1 }}
+        transition={{ duration: 0.3, delay: 0.1 }}
         textAlign="center"
         backgroundColor="transparent"
         border="solid"
@@ -99,7 +100,7 @@ const ProjectModal = ({ isOpen, onClose, project }) => {
         />
         {/* picture */}
         <Box display="flex" justifyContent="center">
-          {/* <Carousel
+          <Carousel
             showStatus={false}
             showThumbs={false}
             transitionTime={1800}
@@ -107,22 +108,22 @@ const ProjectModal = ({ isOpen, onClose, project }) => {
             interval={4500}
             emulateTouch
             stopOnHover={false}
-          > */}
-          {projectBg.map((imageUrl, index) => (
-            <div key={index}>
-              <img
-                src={imageUrl}
-                alt={`Slide ${index}`}
-                style={{
-                  height: responsiveStyles?.picHeight,
-                  width: responsiveStyles?.picWidth,
-                  borderRadius: '2rem',
-                  marginTop: responsiveStyles?.picMarginTop
-                }}
-              />
-            </div>
-          ))}
-          {/* </Carousel> */}
+          >
+            {projectBg.map((imageUrl, index) => (
+              <div key={index}>
+                <img
+                  src={imageUrl}
+                  alt={`Slide ${index}`}
+                  style={{
+                    height: responsiveStyles?.picHeight,
+                    width: responsiveStyles?.picWidth,
+                    borderRadius: '2rem',
+                    marginTop: responsiveStyles?.picMarginTop
+                  }}
+                />
+              </div>
+            ))}
+          </Carousel>
         </Box>
         <Box
           sx={{
