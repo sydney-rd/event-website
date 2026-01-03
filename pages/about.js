@@ -96,14 +96,7 @@ export default function About() {
               Working in events is a gratifying journey, witnessing the results
               of hard work and seeing your event come to life.
               <br />
-              <br />I became a co-founder to Kalyani, a healthy-lifestyle
-              community in the wellness and charity tech space, currently in
-              stealth mode, that provides a mobile platform and digital tools
-              for its members to track their growth journey and overflow back to
-              the community. Here I learned how to code, which has been a very
-              rewarding skill, while also leading business development,
-              partnerships, and events.
-              <br />
+             
               <br />
               While you&apos;ll find me reminiscing about the amazing memories
               I&apos;ve made producing events, I also continue to code daily and
