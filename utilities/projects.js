@@ -112,8 +112,7 @@ export const projects = [
     cateogry: 'BLOOD CANCER UNITED',
     description: 'Blood Cancer United celebrated their 75th year anniversary in Manhattan, where I handled behind the scene logistics including live music, venue, staff plan, guest list, and day-of. We had over 550 guests and had a successful night raising $450,000!',
     color: 'EE8EE2',
-    projectBg: [
-      
+    projectBg: ['https://raw.githubusercontent.com/sydney-rd/event-website/refs/heads/main/public/assets/photos/BCU/blood%20cancer%20united.jpeg'
     ]
   },
   {
