@@ -71,7 +71,7 @@ export default function Navbar() {
             </Link>
           </Box>
         </Box>
-        <Box pr="2" pt="4">
+        {/* <Box pr="2" pt="4">
           <Box
             className="navBar"
             transform="rotate(90deg)"
@@ -85,7 +85,7 @@ export default function Navbar() {
               style={navBarStyle}
             >
               RESUME
-            </a>
+            </a> */}
           </Box>
         </Box>
       </VStack>

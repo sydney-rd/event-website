@@ -61,7 +61,7 @@ export default function MobileAboutNavBar() {
           </motion.span>
         </a>
         <a
-          href="/assets/Sydney-David-Resume.pdf"
+          href=""
           target="_blank"
           rel="noopener noreferrer"
         >
