@@ -88,7 +88,7 @@ export default function About() {
               Hyundai Genesis, WeWork, and ViacomCBS (Comedy Central, TV Land, and Paramount Network). 
               From planning large-scale, multi-million-dollar productions to developing and executing 
               creative event concepts, it was an incredible experience…but I wanted to explore myself further and challenge myself in new ways.
-                            <br />
+             <br />
               I spent time learning how to code and expanding my technical skill set through programs including Udacity, 
               QuantNets Financial Engineering course, and an in-person bootcamp, while also gaining experience in a 
               startup focused on the wellness space. Through this work, I became increasingly immersed in the nonprofit sector, 
