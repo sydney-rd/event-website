@@ -68,7 +68,7 @@ export default function About() {
           top="2rem"
           maxW={responsiveStyles?.titleMaxW}
         >
-          EVENTS
+          ABOUT ME
         </Box>
         <Box
           color="white"
@@ -84,24 +84,25 @@ export default function About() {
               <br />
               <br />
               <br />
-              I embarked on a journey in hospitality and events, working with industry leaders including 
+              My journey in hospitality and events has been fulfilling, working with industry leaders including 
               Hyundai Genesis, WeWork, and ViacomCBS (Comedy Central, TV Land, and Paramount Network). 
               From planning large-scale, multi-million-dollar productions to developing and executing 
-              creative event concepts, it was an incredible experience…but I wanted to explore myself further and challenge myself in new ways.
-             <br />
-              I spent time learning how to code and expanding my technical skill set through programs including Udacity, 
-              QuantNets Financial Engineering course, and an in-person bootcamp, while also gaining experience in a 
-              startup focused on the wellness space. Through this work, I became increasingly immersed in the nonprofit sector, 
-              which led me toward a deeper interest in mission-driven work.
-
+              my own creative events, I became drawn to the energy that the industry gave me.  
               <br />
               <br />
-              I thrive on community and building meaningful connections through partnerships and 
-              mission-driven work. Working in nonprofit and events has been a deeply rewarding 
-              experience—bringing initiatives to life, collaborating across teams, 
-              and seeing the tangible impact of the work that I do. 
+              After several years working in the events industry, I took time to expand my skill set in tech, through coursework 
+              in software engineering and financial engineering, alongisde experience at an early-stage wellness startup.
+              This period of exploration helped me to build skills and a broader understanding of business development,
+              products, and how the tech industry. Through all of this, I became drawn back to my core 
+              strengths in events, particularly within the nonprofit sector. Being surrounded by mission-driven work and people
+               during my time in the startup space allowed me to explore my true passion - mission driven work. 
               <br />
-             
+              <br />
+              Mission-driven work is important to me because it creates space for connection, community, and real impact. I am most 
+              fulfilled when the work I do feels meaningful 
+              and contributes to something larger than myself. 
+              That sense of purpose is what continues to guide the direction of my career.
+              <br />
               <br />
               While you&apos;ll find me reminiscing about the amazing memories
               I&apos;ve made producing events, I also continue to code and
