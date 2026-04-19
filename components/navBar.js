@@ -71,14 +71,14 @@ export default function Navbar() {
             </Link>
           </Box>
         </Box>
-        {/* <Box pr="2" pt="4">
+        <Box pr="2" pt="4">
           <Box
             className="navBar"
             transform="rotate(90deg)"
             whiteSpace="pre"
             style={navBarStyle}
           >
-            <a
+            {/* <a
               href="/assets/Sydney-David-Events-Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
