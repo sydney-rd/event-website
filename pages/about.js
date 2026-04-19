@@ -84,24 +84,29 @@ export default function About() {
               <br />
               <br />
               <br />
-              I embarked on journey inside the world of hospitality and events,
-              working for industry giants like Hyundai Genesis, WeWork, and
-              ViacomCBS for Comedy Central, TVLand, and Paramount Network. My
-              experience spans from building events from the ground up to
-              managing the execution of multi-million dollar productions, both
-              which fueled my passion for events.
+              I embarked on a journey in hospitality and events, working with industry leaders including 
+              Hyundai Genesis, WeWork, and ViacomCBS (Comedy Central, TV Land, and Paramount Network). 
+              From planning large-scale, multi-million-dollar productions to developing and executing 
+              creative event concepts, it was an incredible experience…but I wanted to explore myself further and challenge myself in new ways.
+                            <br />
+              I spent time learning how to code and expanding my technical skill set through programs including Udacity, 
+              QuantNets Financial Engineering course, and an in-person bootcamp, while also gaining experience in a 
+              startup focused on the wellness space. Through this work, I became increasingly immersed in the nonprofit sector, 
+              which led me toward a deeper interest in mission-driven work.
+
               <br />
-              <br />I thrive on creativity and immersing myself in the world of
-              experiential marketing, partnerships, and business development.
-              Working in events is a gratifying journey, witnessing the results
-              of hard work and seeing your event come to life.
+              <br />
+              I thrive on community and building meaningful connections through partnerships and 
+              mission-driven work. Working in nonprofit and events has been a deeply rewarding 
+              experience—bringing initiatives to life, collaborating across teams, 
+              and seeing the tangible impact of the work that I do. 
               <br />
              
               <br />
               While you&apos;ll find me reminiscing about the amazing memories
-              I&apos;ve made producing events, I also continue to code daily and
+              I&apos;ve made producing events, I also continue to code and
               create really cool projects (including this one!) I also have a
-              passion for studying geography, cars, cats, and my pitbull-mix!
+              passion for studying geography, animals, traveling, and exploring my next adventure.
               <br />
               <br />
             </Text>
