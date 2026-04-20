@@ -16,7 +16,7 @@ const SpinningLogo = () => {
       logoPaddingRight: '4rem',
       logoWidth: '30%',
       logoHeight: '30%',
-      logoPaddingTop: '21rem'
+      logoPaddingTop: '51rem'
     }
   })
   return (
