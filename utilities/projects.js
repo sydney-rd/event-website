@@ -118,7 +118,7 @@ export const projects = [
   {
     name: 'VOY',
     category: 'BLOOD CANCER UNITED',
-    description: 'I work for the Visionaries of the Year campaign, where we bring on philanthropic or missin-connected individuals to fundraise in a 10-week competition, culminating into a gala. With over 500+ guests, the event brings the community together to fundraise and raise awareness for blood cancer',
+    description: 'I work on the Visionaries of the Year campaign, engaging mission-driven and philanthropic leaders to fundraise over a 10-week competitive cycle that culminates in a gala. The event brings together 500+ guests from the community to raise funds and awareness for blood cancer.',
     color: '#EE7EE2',
     projectBg: ['https://raw.githubusercontent.com/sydney-rd/event-website/refs/heads/main/public/assets/photos/BCU/IMG_3246.jpg', 'https://raw.githubusercontent.com/sydney-rd/event-website/refs/heads/main/public/assets/photos/BCU/IMG_3244.jpg'
     ]

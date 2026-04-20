@@ -91,11 +91,9 @@ export default function About() {
               <br />
               <br />
               After several years working in the events industry, I took time to expand my skill set in tech, through coursework 
-              in software engineering and financial engineering, alongisde experience at an early-stage wellness startup.
-              This period of exploration helped me to build skills and a broader understanding of business development,
-              products, and the tech industry. Through all of this, I became drawn back to my core 
-              strengths in events, particularly within the nonprofit sector. Being surrounded by mission-driven work and people
-               during my time in the startup space allowed me to explore my true passion - mission driven work. 
+              in software and financial engineering, alongisde experience at a wellness startup.
+              This period of exploration helped me to build skills and a broader understanding of business development,and the tech industry. 
+              Through this experience, I was drawn back to my core strengths in events, with a growing interest in the nonprofit sector after being immersed in a mission-driven startup environment.
               <br />
               <br />
               Mission-driven work is important to me because it creates space for connection, community, and real impact. I am most 
