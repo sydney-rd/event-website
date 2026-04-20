@@ -116,6 +116,14 @@ export const projects = [
     ]
   },
   {
+    name: 'VOY',
+    category: 'BLOOD CANCER UNITED',
+    description: 'I work for the Visionaries of the Year campaign, where we bring on philanthropic or missin-connected individuals to fundraise in a 10-week competition, culminating into a gala. With over 500+ guests, the event brings the community together to fundraise and raise awareness for blood cancer',
+    color: '#EE7EE2',
+    projectBg: ['https://raw.githubusercontent.com/sydney-rd/event-website/refs/heads/main/public/assets/photos/BCU/blood%20cancer%20united.jpeg'
+    ]
+  },
+  {
     name: 'EXEC SPEECH',
     category: 'GENESIS',
     description:
